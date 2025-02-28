@@ -11,11 +11,11 @@ import pycaret.classification as pc
 from flask import Flask, request, render_template, jsonify
 
 
-app = Flask(__name__, template_folder="../templates", static_folder="../static")
+app = Flask(__name__, template_folder="templates", static_folder="static")
 pp = preprocess.Preprocessors()
 fn = functions.Functions()
 
-@hydra.main(config_path="../config", config_name="config.yaml")
+@hydra.main(config_path="config", config_name="config.yaml")
 def load_models(cfg: DictConfig):
     global variables 
     variables = cfg
