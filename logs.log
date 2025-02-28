@@ -6171,3 +6171,1283 @@ current: {'deps_info': {'pip': '25.0.1', 'setuptools': '75.8.2', 'pycaret': '3.3
 pickle: {'deps_info': {'pip': '25.0.1', 'setuptools': '75.8.1', 'pycaret': '3.3.2', 'IPython': '8.32.0', 'ipywidgets': '8.1.5', 'tqdm': '4.67.1', 'numpy': '1.26.4', 'pandas': '2.1.4', 'jinja2': '3.1.5', 'scipy': '1.11.4', 'joblib': '1.3.2', 'sklearn': '1.4.2', 'pyod': '2.0.3', 'imblearn': '0.13.0', 'category_encoders': '2.7.0', 'lightgbm': '4.6.0', 'numba': '0.61.0', 'requests': '2.32.3', 'matplotlib': '3.7.5', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '5.24.1', 'plotly-resampler': 'Not installed', 'kaleido': '0.2.1', 'schemdraw': '0.15', 'statsmodels': '0.14.4', 'sktime': '0.26.0', 'tbats': '1.1.3', 'pmdarima': '2.0.4', 'psutil': '7.0.0', 'markupsafe': '2.1.5', 'pickle5': 'Not installed', 'cloudpickle': '3.1.1', 'deprecation': '2.1.0', 'xxhash': '3.5.0', 'wurlitzer': 'Not installed'}, 'python': {'version': '3.10.16', 'machine': 'AMD64'}}
   warnings.warn(
 
+2025-02-28 14:54:31,261:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-02-28 14:54:31,261:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-02-28 14:54:31,261:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-02-28 14:54:31,261:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-02-28 14:54:31,700:WARNING:C:\Users\Damian Lau\Desktop\MLOPS-App\src\app.py:18: UserWarning: 
+The version_base parameter is not specified.
+Please specify a compatability version level, or None.
+Will assume defaults for version 1.1
+  @hydra.main(config_path="../config", config_name="config.yaml")
+
+2025-02-28 14:54:32,058:WARNING:C:\Users\Damian Lau\AppData\Local\pypoetry\Cache\virtualenvs\mlops-app-x87fym7--py3.10\lib\site-packages\hydra\_internal\hydra.py:119: UserWarning: Future Hydra versions will no longer change working directory at job runtime by default.
+See https://hydra.cc/docs/1.2/upgrades/1.1_to_1.2/changes_to_job_working_dir/ for more information.
+  ret = run_job(
+
+2025-02-28 14:54:32,090:INFO:Initializing load_model()
+2025-02-28 14:54:32,090:INFO:load_model(model_name=models/final_model, platform=None, authentication=None, verbose=True)
+2025-02-28 14:54:32,750:WARNING:C:\Users\Damian Lau\AppData\Local\pypoetry\Cache\virtualenvs\mlops-app-x87fym7--py3.10\lib\site-packages\pycaret\internal\pipeline.py:148: UserWarning: Version mismatch:
+current: {'deps_info': {'pip': '25.0.1', 'setuptools': '75.8.2', 'pycaret': '3.3.2', 'IPython': '8.32.0', 'ipywidgets': '8.1.5', 'tqdm': '4.67.1', 'numpy': '1.26.4', 'pandas': '2.1.4', 'jinja2': '3.1.5', 'scipy': '1.11.4', 'joblib': '1.3.2', 'sklearn': '1.4.2', 'pyod': '2.0.3', 'imblearn': '0.13.0', 'category_encoders': '2.7.0', 'lightgbm': '4.6.0', 'numba': '0.61.0', 'requests': '2.32.3', 'matplotlib': '3.7.5', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '5.24.1', 'plotly-resampler': 'Not installed', 'kaleido': '0.2.1', 'schemdraw': '0.15', 'statsmodels': '0.14.4', 'sktime': '0.26.0', 'tbats': '1.1.3', 'pmdarima': '2.0.4', 'psutil': '7.0.0', 'markupsafe': '3.0.2', 'pickle5': 'Not installed', 'cloudpickle': '3.1.1', 'deprecation': '2.1.0', 'xxhash': '3.5.0', 'wurlitzer': 'Not installed'}, 'python': {'version': '3.10.0', 'machine': 'AMD64'}}
+pickle: {'deps_info': {'pip': '25.0.1', 'setuptools': '75.8.1', 'pycaret': '3.3.2', 'IPython': '8.32.0', 'ipywidgets': '8.1.5', 'tqdm': '4.67.1', 'numpy': '1.26.4', 'pandas': '2.1.4', 'jinja2': '3.1.5', 'scipy': '1.11.4', 'joblib': '1.3.2', 'sklearn': '1.4.2', 'pyod': '2.0.3', 'imblearn': '0.13.0', 'category_encoders': '2.7.0', 'lightgbm': '4.6.0', 'numba': '0.61.0', 'requests': '2.32.3', 'matplotlib': '3.7.5', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '5.24.1', 'plotly-resampler': 'Not installed', 'kaleido': '0.2.1', 'schemdraw': '0.15', 'statsmodels': '0.14.4', 'sktime': '0.26.0', 'tbats': '1.1.3', 'pmdarima': '2.0.4', 'psutil': '7.0.0', 'markupsafe': '2.1.5', 'pickle5': 'Not installed', 'cloudpickle': '3.1.1', 'deprecation': '2.1.0', 'xxhash': '3.5.0', 'wurlitzer': 'Not installed'}, 'python': {'version': '3.10.16', 'machine': 'AMD64'}}
+  warnings.warn(
+
+2025-02-28 19:25:26,229:WARNING:C:\Users\Damian Lau\Desktop\MLOPS-App\src\functions.py:12: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  data[column] = data[column].astype("object")
+
+2025-02-28 19:25:28,302:WARNING:C:\Users\Damian Lau\Desktop\MLOPS-App\src\functions.py:12: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  data[column] = data[column].astype("object")
+
+2025-02-28 20:18:12,386:WARNING:C:\Users\Damian Lau\Desktop\MLOPS-App\src\functions.py:12: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  data[column] = data[column].astype("object")
+
+2025-02-28 20:40:22,854:WARNING:C:\Users\Damian Lau\Desktop\MLOPS-App\src\functions.py:12: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  data[column] = data[column].astype("object")
+
+2025-02-28 20:48:46,372:WARNING:C:\Users\Damian Lau\Desktop\MLOPS-App\src\functions.py:12: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  data[column] = data[column].astype("object")
+
+2025-02-28 22:22:51,570:WARNING:C:\Users\Damian Lau\Desktop\MLOPS-App\src\functions.py:12: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  data[column] = data[column].astype("object")
+
+2025-02-28 22:28:42,922:WARNING:C:\Users\Damian Lau\Desktop\MLOPS-App\src\functions.py:12: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  data[column] = data[column].astype("object")
+
+2025-02-28 22:29:02,998:WARNING:C:\Users\Damian Lau\Desktop\MLOPS-App\src\functions.py:12: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  data[column] = data[column].astype("object")
+
+2025-02-28 22:30:33,789:WARNING:C:\Users\Damian Lau\Desktop\MLOPS-App\src\functions.py:12: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  data[column] = data[column].astype("object")
+
+2025-02-28 22:30:42,330:WARNING:C:\Users\Damian Lau\Desktop\MLOPS-App\src\functions.py:12: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  data[column] = data[column].astype("object")
+
+2025-02-28 22:31:58,816:WARNING:C:\Users\Damian Lau\Desktop\MLOPS-App\src\functions.py:12: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  data[column] = data[column].astype("object")
+
+2025-02-28 22:32:14,656:WARNING:C:\Users\Damian Lau\Desktop\MLOPS-App\src\functions.py:12: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  data[column] = data[column].astype("object")
+
+2025-02-28 22:32:27,529:WARNING:C:\Users\Damian Lau\Desktop\MLOPS-App\src\functions.py:12: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  data[column] = data[column].astype("object")
+
+2025-02-28 22:33:32,038:WARNING:C:\Users\Damian Lau\Desktop\MLOPS-App\src\functions.py:12: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  data[column] = data[column].astype("object")
+
+2025-02-28 22:33:38,498:WARNING:C:\Users\Damian Lau\Desktop\MLOPS-App\src\functions.py:12: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  data[column] = data[column].astype("object")
+
+2025-02-28 22:34:59,626:WARNING:C:\Users\Damian Lau\Desktop\MLOPS-App\src\functions.py:12: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  data[column] = data[column].astype("object")
+
+2025-02-28 22:35:15,990:WARNING:C:\Users\Damian Lau\Desktop\MLOPS-App\src\functions.py:12: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  data[column] = data[column].astype("object")
+
+2025-02-28 22:35:30,001:WARNING:C:\Users\Damian Lau\Desktop\MLOPS-App\src\functions.py:12: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  data[column] = data[column].astype("object")
+
+2025-02-28 22:35:41,091:WARNING:C:\Users\Damian Lau\Desktop\MLOPS-App\src\functions.py:12: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  data[column] = data[column].astype("object")
+
+2025-02-28 22:36:26,594:WARNING:C:\Users\Damian Lau\Desktop\MLOPS-App\src\functions.py:12: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  data[column] = data[column].astype("object")
+
+2025-02-28 22:37:00,012:WARNING:C:\Users\Damian Lau\Desktop\MLOPS-App\src\functions.py:12: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  data[column] = data[column].astype("object")
+
+2025-02-28 22:37:20,393:WARNING:C:\Users\Damian Lau\Desktop\MLOPS-App\src\functions.py:12: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  data[column] = data[column].astype("object")
+
+2025-02-28 22:37:38,529:WARNING:C:\Users\Damian Lau\Desktop\MLOPS-App\src\functions.py:12: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  data[column] = data[column].astype("object")
+
+2025-02-28 22:37:51,581:WARNING:C:\Users\Damian Lau\Desktop\MLOPS-App\src\functions.py:12: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  data[column] = data[column].astype("object")
+
+2025-02-28 22:37:54,481:WARNING:C:\Users\Damian Lau\Desktop\MLOPS-App\src\functions.py:12: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  data[column] = data[column].astype("object")
+
+2025-02-28 22:38:01,164:WARNING:C:\Users\Damian Lau\Desktop\MLOPS-App\src\functions.py:12: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  data[column] = data[column].astype("object")
+
+2025-02-28 22:38:25,455:WARNING:C:\Users\Damian Lau\Desktop\MLOPS-App\src\functions.py:12: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  data[column] = data[column].astype("object")
+
+2025-02-28 22:38:43,553:WARNING:C:\Users\Damian Lau\Desktop\MLOPS-App\src\functions.py:12: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  data[column] = data[column].astype("object")
+
+2025-02-28 22:38:55,773:WARNING:C:\Users\Damian Lau\Desktop\MLOPS-App\src\functions.py:12: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  data[column] = data[column].astype("object")
+
+2025-02-28 22:39:00,769:WARNING:C:\Users\Damian Lau\Desktop\MLOPS-App\src\functions.py:12: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  data[column] = data[column].astype("object")
+
+2025-02-28 22:39:22,115:WARNING:C:\Users\Damian Lau\Desktop\MLOPS-App\src\functions.py:12: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  data[column] = data[column].astype("object")
+
+2025-02-28 22:39:29,753:WARNING:C:\Users\Damian Lau\Desktop\MLOPS-App\src\functions.py:12: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  data[column] = data[column].astype("object")
+
+2025-02-28 22:39:42,088:WARNING:C:\Users\Damian Lau\Desktop\MLOPS-App\src\functions.py:12: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  data[column] = data[column].astype("object")
+
+2025-02-28 22:40:05,472:WARNING:C:\Users\Damian Lau\Desktop\MLOPS-App\src\functions.py:12: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  data[column] = data[column].astype("object")
+
+2025-02-28 22:40:30,083:WARNING:C:\Users\Damian Lau\Desktop\MLOPS-App\src\functions.py:12: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  data[column] = data[column].astype("object")
+
+2025-02-28 22:40:32,883:WARNING:C:\Users\Damian Lau\Desktop\MLOPS-App\src\functions.py:12: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  data[column] = data[column].astype("object")
+
+2025-02-28 22:40:37,535:WARNING:C:\Users\Damian Lau\Desktop\MLOPS-App\src\functions.py:12: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  data[column] = data[column].astype("object")
+
+2025-02-28 22:40:41,405:WARNING:C:\Users\Damian Lau\Desktop\MLOPS-App\src\functions.py:12: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  data[column] = data[column].astype("object")
+
+2025-02-28 22:40:46,232:WARNING:C:\Users\Damian Lau\Desktop\MLOPS-App\src\functions.py:12: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  data[column] = data[column].astype("object")
+
+2025-02-28 22:41:02,217:WARNING:C:\Users\Damian Lau\Desktop\MLOPS-App\src\functions.py:12: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  data[column] = data[column].astype("object")
+
+2025-02-28 22:41:09,106:WARNING:C:\Users\Damian Lau\Desktop\MLOPS-App\src\functions.py:12: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  data[column] = data[column].astype("object")
+
+2025-02-28 22:41:14,018:WARNING:C:\Users\Damian Lau\Desktop\MLOPS-App\src\functions.py:12: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  data[column] = data[column].astype("object")
+
+2025-02-28 22:41:27,392:WARNING:C:\Users\Damian Lau\Desktop\MLOPS-App\src\functions.py:12: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  data[column] = data[column].astype("object")
+
+2025-02-28 22:41:43,724:WARNING:C:\Users\Damian Lau\Desktop\MLOPS-App\src\functions.py:12: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  data[column] = data[column].astype("object")
+
+2025-02-28 22:41:54,738:WARNING:C:\Users\Damian Lau\Desktop\MLOPS-App\src\functions.py:12: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  data[column] = data[column].astype("object")
+
+2025-02-28 22:42:01,778:WARNING:C:\Users\Damian Lau\Desktop\MLOPS-App\src\functions.py:12: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  data[column] = data[column].astype("object")
+
+2025-02-28 22:42:06,578:WARNING:C:\Users\Damian Lau\Desktop\MLOPS-App\src\functions.py:12: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  data[column] = data[column].astype("object")
+
+2025-02-28 22:42:40,816:WARNING:C:\Users\Damian Lau\Desktop\MLOPS-App\src\functions.py:12: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  data[column] = data[column].astype("object")
+
+2025-02-28 22:42:47,589:WARNING:C:\Users\Damian Lau\Desktop\MLOPS-App\src\functions.py:12: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  data[column] = data[column].astype("object")
+
+2025-02-28 22:43:08,293:WARNING:C:\Users\Damian Lau\Desktop\MLOPS-App\src\functions.py:12: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  data[column] = data[column].astype("object")
+
+2025-02-28 22:43:49,965:WARNING:C:\Users\Damian Lau\Desktop\MLOPS-App\src\functions.py:12: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  data[column] = data[column].astype("object")
+
+2025-02-28 22:44:10,507:WARNING:C:\Users\Damian Lau\Desktop\MLOPS-App\src\functions.py:12: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  data[column] = data[column].astype("object")
+
+2025-02-28 22:44:22,466:WARNING:C:\Users\Damian Lau\Desktop\MLOPS-App\src\functions.py:12: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  data[column] = data[column].astype("object")
+
+2025-02-28 22:44:30,904:WARNING:C:\Users\Damian Lau\Desktop\MLOPS-App\src\functions.py:12: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  data[column] = data[column].astype("object")
+
+2025-02-28 22:45:06,831:INFO:Initializing predict_model()
+2025-02-28 22:45:06,832:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001910B459E70>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('iterative_imputer',
+                 TransformerWrapper(transformer=IterativeImputer(cat_estimator=ExtraTreesClassifier(n_jobs=-1,
+                                                                                                    random_state=123),
+                                                                 cat_estimator_prepare_for_categoricals_type='ordinal',
+                                                                 categorical_indices=[0,
+                                                                                      3,
+                                                                                      4,
+                                                                                      10,
+                                                                                      11],
+                                                                 num_estimator=ExtraTreesRegressor(n_jobs=-1,
+                                                                                                   random_state=123),
+                                                                 num_estimator_prepare_f...
+                                    transformer=KBinsDiscretizer(encode='ordinal',
+                                                                 strategy='kmeans'))),
+                ('remove_outliers',
+                 TransformerWrapper(transformer=RemoveOutliers(random_state=123))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator',
+                 <catboost.core.CatBoostRegressor object at 0x0000019112566C20>)]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000019115C42C20>)
+2025-02-28 22:45:06,832:INFO:Checking exceptions
+2025-02-28 22:45:06,832:INFO:Preloading libraries
+2025-02-28 22:45:06,837:INFO:Set up data.
+2025-02-28 22:45:06,872:INFO:Set up index.
+2025-02-28 22:45:07,184:WARNING:C:\Users\Damian Lau\AppData\Local\pypoetry\Cache\virtualenvs\mlops-app-x87fym7--py3.10\lib\site-packages\pycaret\internal\preprocess\transformers.py:396: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  X[name] = column.replace(self.to_other_[name], self.value)
+
+2025-02-28 22:45:07,187:WARNING:C:\Users\Damian Lau\AppData\Local\pypoetry\Cache\virtualenvs\mlops-app-x87fym7--py3.10\lib\site-packages\pycaret\internal\preprocess\transformers.py:396: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  X[name] = column.replace(self.to_other_[name], self.value)
+
+2025-02-28 22:45:07,192:WARNING:C:\Users\Damian Lau\AppData\Local\pypoetry\Cache\virtualenvs\mlops-app-x87fym7--py3.10\lib\site-packages\pycaret\internal\preprocess\transformers.py:396: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  X[name] = column.replace(self.to_other_[name], self.value)
+
+2025-02-28 22:45:33,369:WARNING:C:\Users\Damian Lau\Desktop\MLOPS-App\src\functions.py:12: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  data[column] = data[column].astype("object")
+
+2025-02-28 22:45:36,808:WARNING:C:\Users\Damian Lau\Desktop\MLOPS-App\src\functions.py:12: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  data[column] = data[column].astype("object")
+
+2025-02-28 22:45:38,917:WARNING:C:\Users\Damian Lau\Desktop\MLOPS-App\src\functions.py:12: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  data[column] = data[column].astype("object")
+
+2025-02-28 22:46:00,140:INFO:Initializing predict_model()
+2025-02-28 22:46:00,140:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001910ADB4790>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('iterative_imputer',
+                 TransformerWrapper(transformer=IterativeImputer(cat_estimator=ExtraTreesClassifier(n_jobs=-1,
+                                                                                                    random_state=123),
+                                                                 cat_estimator_prepare_for_categoricals_type='ordinal',
+                                                                 categorical_indices=[0,
+                                                                                      3,
+                                                                                      4,
+                                                                                      10,
+                                                                                      11],
+                                                                 num_estimator=ExtraTreesRegressor(n_jobs=-1,
+                                                                                                   random_state=123),
+                                                                 num_estimator_prepare_f...
+                                    transformer=KBinsDiscretizer(encode='ordinal',
+                                                                 strategy='kmeans'))),
+                ('remove_outliers',
+                 TransformerWrapper(transformer=RemoveOutliers(random_state=123))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator',
+                 <catboost.core.CatBoostRegressor object at 0x0000019112566C20>)]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001910B36AD40>)
+2025-02-28 22:46:00,141:INFO:Checking exceptions
+2025-02-28 22:46:00,141:INFO:Preloading libraries
+2025-02-28 22:46:00,142:INFO:Set up data.
+2025-02-28 22:46:00,156:INFO:Set up index.
+2025-02-28 22:46:00,200:WARNING:C:\Users\Damian Lau\AppData\Local\pypoetry\Cache\virtualenvs\mlops-app-x87fym7--py3.10\lib\site-packages\pycaret\internal\preprocess\transformers.py:396: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  X[name] = column.replace(self.to_other_[name], self.value)
+
+2025-02-28 22:46:00,204:WARNING:C:\Users\Damian Lau\AppData\Local\pypoetry\Cache\virtualenvs\mlops-app-x87fym7--py3.10\lib\site-packages\pycaret\internal\preprocess\transformers.py:396: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  X[name] = column.replace(self.to_other_[name], self.value)
+
+2025-02-28 22:46:00,209:WARNING:C:\Users\Damian Lau\AppData\Local\pypoetry\Cache\virtualenvs\mlops-app-x87fym7--py3.10\lib\site-packages\pycaret\internal\preprocess\transformers.py:396: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  X[name] = column.replace(self.to_other_[name], self.value)
+
+2025-02-28 22:46:33,875:WARNING:C:\Users\Damian Lau\Desktop\MLOPS-App\src\functions.py:12: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  data[column] = data[column].astype("object")
+
+2025-02-28 22:46:52,353:INFO:Initializing predict_model()
+2025-02-28 22:46:52,353:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001910B44B3D0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('iterative_imputer',
+                 TransformerWrapper(transformer=IterativeImputer(cat_estimator=ExtraTreesClassifier(n_jobs=-1,
+                                                                                                    random_state=123),
+                                                                 cat_estimator_prepare_for_categoricals_type='ordinal',
+                                                                 categorical_indices=[0,
+                                                                                      3,
+                                                                                      4,
+                                                                                      10,
+                                                                                      11],
+                                                                 num_estimator=ExtraTreesRegressor(n_jobs=-1,
+                                                                                                   random_state=123),
+                                                                 num_estimator_prepare_f...
+                                    transformer=KBinsDiscretizer(encode='ordinal',
+                                                                 strategy='kmeans'))),
+                ('remove_outliers',
+                 TransformerWrapper(transformer=RemoveOutliers(random_state=123))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator',
+                 <catboost.core.CatBoostRegressor object at 0x0000019112566C20>)]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001910B36BC70>)
+2025-02-28 22:46:52,353:INFO:Checking exceptions
+2025-02-28 22:46:52,353:INFO:Preloading libraries
+2025-02-28 22:46:52,355:INFO:Set up data.
+2025-02-28 22:46:52,370:INFO:Set up index.
+2025-02-28 22:46:52,417:WARNING:C:\Users\Damian Lau\AppData\Local\pypoetry\Cache\virtualenvs\mlops-app-x87fym7--py3.10\lib\site-packages\pycaret\internal\preprocess\transformers.py:396: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  X[name] = column.replace(self.to_other_[name], self.value)
+
+2025-02-28 22:46:52,422:WARNING:C:\Users\Damian Lau\AppData\Local\pypoetry\Cache\virtualenvs\mlops-app-x87fym7--py3.10\lib\site-packages\pycaret\internal\preprocess\transformers.py:396: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  X[name] = column.replace(self.to_other_[name], self.value)
+
+2025-02-28 22:46:52,429:WARNING:C:\Users\Damian Lau\AppData\Local\pypoetry\Cache\virtualenvs\mlops-app-x87fym7--py3.10\lib\site-packages\pycaret\internal\preprocess\transformers.py:396: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  X[name] = column.replace(self.to_other_[name], self.value)
+
+2025-02-28 22:47:18,792:WARNING:C:\Users\Damian Lau\Desktop\MLOPS-App\src\functions.py:12: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  data[column] = data[column].astype("object")
+
+2025-02-28 22:47:33,953:INFO:Initializing predict_model()
+2025-02-28 22:47:33,953:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001910B4802E0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('iterative_imputer',
+                 TransformerWrapper(transformer=IterativeImputer(cat_estimator=ExtraTreesClassifier(n_jobs=-1,
+                                                                                                    random_state=123),
+                                                                 cat_estimator_prepare_for_categoricals_type='ordinal',
+                                                                 categorical_indices=[0,
+                                                                                      3,
+                                                                                      4,
+                                                                                      10,
+                                                                                      11],
+                                                                 num_estimator=ExtraTreesRegressor(n_jobs=-1,
+                                                                                                   random_state=123),
+                                                                 num_estimator_prepare_f...
+                                    transformer=KBinsDiscretizer(encode='ordinal',
+                                                                 strategy='kmeans'))),
+                ('remove_outliers',
+                 TransformerWrapper(transformer=RemoveOutliers(random_state=123))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator',
+                 <catboost.core.CatBoostRegressor object at 0x0000019112566C20>)]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001910B36B010>)
+2025-02-28 22:47:33,953:INFO:Checking exceptions
+2025-02-28 22:47:33,953:INFO:Preloading libraries
+2025-02-28 22:47:33,954:INFO:Set up data.
+2025-02-28 22:47:33,967:INFO:Set up index.
+2025-02-28 22:47:34,003:WARNING:C:\Users\Damian Lau\AppData\Local\pypoetry\Cache\virtualenvs\mlops-app-x87fym7--py3.10\lib\site-packages\pycaret\internal\preprocess\transformers.py:396: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  X[name] = column.replace(self.to_other_[name], self.value)
+
+2025-02-28 22:47:34,006:WARNING:C:\Users\Damian Lau\AppData\Local\pypoetry\Cache\virtualenvs\mlops-app-x87fym7--py3.10\lib\site-packages\pycaret\internal\preprocess\transformers.py:396: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  X[name] = column.replace(self.to_other_[name], self.value)
+
+2025-02-28 22:47:34,010:WARNING:C:\Users\Damian Lau\AppData\Local\pypoetry\Cache\virtualenvs\mlops-app-x87fym7--py3.10\lib\site-packages\pycaret\internal\preprocess\transformers.py:396: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  X[name] = column.replace(self.to_other_[name], self.value)
+
+2025-02-28 22:48:36,993:WARNING:C:\Users\Damian Lau\Desktop\MLOPS-App\src\functions.py:12: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  data[column] = data[column].astype("object")
+
+2025-02-28 22:48:58,156:WARNING:C:\Users\Damian Lau\Desktop\MLOPS-App\src\functions.py:12: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  data[column] = data[column].astype("object")
+
+2025-02-28 22:49:40,497:WARNING:C:\Users\Damian Lau\Desktop\MLOPS-App\src\functions.py:12: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  data[column] = data[column].astype("object")
+
+2025-02-28 22:49:53,955:INFO:Initializing predict_model()
+2025-02-28 22:49:53,955:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001910B4598D0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('iterative_imputer',
+                 TransformerWrapper(transformer=IterativeImputer(cat_estimator=ExtraTreesClassifier(n_jobs=-1,
+                                                                                                    random_state=123),
+                                                                 cat_estimator_prepare_for_categoricals_type='ordinal',
+                                                                 categorical_indices=[0,
+                                                                                      3,
+                                                                                      4,
+                                                                                      10,
+                                                                                      11],
+                                                                 num_estimator=ExtraTreesRegressor(n_jobs=-1,
+                                                                                                   random_state=123),
+                                                                 num_estimator_prepare_f...
+                                    transformer=KBinsDiscretizer(encode='ordinal',
+                                                                 strategy='kmeans'))),
+                ('remove_outliers',
+                 TransformerWrapper(transformer=RemoveOutliers(random_state=123))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator',
+                 <catboost.core.CatBoostRegressor object at 0x0000019112566C20>)]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000019115C41750>)
+2025-02-28 22:49:53,956:INFO:Checking exceptions
+2025-02-28 22:49:53,956:INFO:Preloading libraries
+2025-02-28 22:49:53,956:INFO:Set up data.
+2025-02-28 22:49:53,972:INFO:Set up index.
+2025-02-28 22:49:54,016:WARNING:C:\Users\Damian Lau\AppData\Local\pypoetry\Cache\virtualenvs\mlops-app-x87fym7--py3.10\lib\site-packages\pycaret\internal\preprocess\transformers.py:396: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  X[name] = column.replace(self.to_other_[name], self.value)
+
+2025-02-28 22:49:54,020:WARNING:C:\Users\Damian Lau\AppData\Local\pypoetry\Cache\virtualenvs\mlops-app-x87fym7--py3.10\lib\site-packages\pycaret\internal\preprocess\transformers.py:396: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  X[name] = column.replace(self.to_other_[name], self.value)
+
+2025-02-28 22:49:54,024:WARNING:C:\Users\Damian Lau\AppData\Local\pypoetry\Cache\virtualenvs\mlops-app-x87fym7--py3.10\lib\site-packages\pycaret\internal\preprocess\transformers.py:396: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  X[name] = column.replace(self.to_other_[name], self.value)
+
+2025-02-28 22:50:34,899:WARNING:C:\Users\Damian Lau\Desktop\MLOPS-App\src\functions.py:12: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  data[column] = data[column].astype("object")
+
+2025-02-28 22:50:51,071:INFO:Initializing predict_model()
+2025-02-28 22:50:51,071:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001910B448A30>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('iterative_imputer',
+                 TransformerWrapper(transformer=IterativeImputer(cat_estimator=ExtraTreesClassifier(n_jobs=-1,
+                                                                                                    random_state=123),
+                                                                 cat_estimator_prepare_for_categoricals_type='ordinal',
+                                                                 categorical_indices=[0,
+                                                                                      3,
+                                                                                      4,
+                                                                                      10,
+                                                                                      11],
+                                                                 num_estimator=ExtraTreesRegressor(n_jobs=-1,
+                                                                                                   random_state=123),
+                                                                 num_estimator_prepare_f...
+                                    transformer=KBinsDiscretizer(encode='ordinal',
+                                                                 strategy='kmeans'))),
+                ('remove_outliers',
+                 TransformerWrapper(transformer=RemoveOutliers(random_state=123))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator',
+                 <catboost.core.CatBoostRegressor object at 0x0000019112566C20>)]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001910B36AD40>)
+2025-02-28 22:50:51,072:INFO:Checking exceptions
+2025-02-28 22:50:51,072:INFO:Preloading libraries
+2025-02-28 22:50:51,072:INFO:Set up data.
+2025-02-28 22:50:51,091:INFO:Set up index.
+2025-02-28 22:50:51,147:WARNING:C:\Users\Damian Lau\AppData\Local\pypoetry\Cache\virtualenvs\mlops-app-x87fym7--py3.10\lib\site-packages\pycaret\internal\preprocess\transformers.py:396: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  X[name] = column.replace(self.to_other_[name], self.value)
+
+2025-02-28 22:50:51,150:WARNING:C:\Users\Damian Lau\AppData\Local\pypoetry\Cache\virtualenvs\mlops-app-x87fym7--py3.10\lib\site-packages\pycaret\internal\preprocess\transformers.py:396: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  X[name] = column.replace(self.to_other_[name], self.value)
+
+2025-02-28 22:50:51,157:WARNING:C:\Users\Damian Lau\AppData\Local\pypoetry\Cache\virtualenvs\mlops-app-x87fym7--py3.10\lib\site-packages\pycaret\internal\preprocess\transformers.py:396: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  X[name] = column.replace(self.to_other_[name], self.value)
+
+2025-02-28 22:51:14,078:WARNING:C:\Users\Damian Lau\Desktop\MLOPS-App\src\functions.py:12: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  data[column] = data[column].astype("object")
+
+2025-02-28 22:51:25,410:WARNING:C:\Users\Damian Lau\Desktop\MLOPS-App\src\functions.py:12: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  data[column] = data[column].astype("object")
+
+2025-02-28 22:51:29,508:WARNING:C:\Users\Damian Lau\Desktop\MLOPS-App\src\functions.py:12: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  data[column] = data[column].astype("object")
+
+2025-02-28 22:51:49,289:INFO:Initializing predict_model()
+2025-02-28 22:51:49,290:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001910B3D01F0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('iterative_imputer',
+                 TransformerWrapper(transformer=IterativeImputer(cat_estimator=ExtraTreesClassifier(n_jobs=-1,
+                                                                                                    random_state=123),
+                                                                 cat_estimator_prepare_for_categoricals_type='ordinal',
+                                                                 categorical_indices=[0,
+                                                                                      3,
+                                                                                      4,
+                                                                                      10,
+                                                                                      11],
+                                                                 num_estimator=ExtraTreesRegressor(n_jobs=-1,
+                                                                                                   random_state=123),
+                                                                 num_estimator_prepare_f...
+                                    transformer=KBinsDiscretizer(encode='ordinal',
+                                                                 strategy='kmeans'))),
+                ('remove_outliers',
+                 TransformerWrapper(transformer=RemoveOutliers(random_state=123))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator',
+                 <catboost.core.CatBoostRegressor object at 0x0000019112566C20>)]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000019115C41A20>)
+2025-02-28 22:51:49,290:INFO:Checking exceptions
+2025-02-28 22:51:49,290:INFO:Preloading libraries
+2025-02-28 22:51:49,290:INFO:Set up data.
+2025-02-28 22:51:49,304:INFO:Set up index.
+2025-02-28 22:51:49,338:WARNING:C:\Users\Damian Lau\AppData\Local\pypoetry\Cache\virtualenvs\mlops-app-x87fym7--py3.10\lib\site-packages\pycaret\internal\preprocess\transformers.py:396: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  X[name] = column.replace(self.to_other_[name], self.value)
+
+2025-02-28 22:51:49,340:WARNING:C:\Users\Damian Lau\AppData\Local\pypoetry\Cache\virtualenvs\mlops-app-x87fym7--py3.10\lib\site-packages\pycaret\internal\preprocess\transformers.py:396: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  X[name] = column.replace(self.to_other_[name], self.value)
+
+2025-02-28 22:51:49,344:WARNING:C:\Users\Damian Lau\AppData\Local\pypoetry\Cache\virtualenvs\mlops-app-x87fym7--py3.10\lib\site-packages\pycaret\internal\preprocess\transformers.py:396: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  X[name] = column.replace(self.to_other_[name], self.value)
+
+2025-02-28 22:52:17,447:WARNING:C:\Users\Damian Lau\Desktop\MLOPS-App\src\functions.py:12: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  data[column] = data[column].astype("object")
+
+2025-02-28 22:52:28,167:WARNING:C:\Users\Damian Lau\Desktop\MLOPS-App\src\functions.py:12: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  data[column] = data[column].astype("object")
+
+2025-02-28 22:52:44,531:WARNING:C:\Users\Damian Lau\Desktop\MLOPS-App\src\functions.py:12: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  data[column] = data[column].astype("object")
+
+2025-02-28 22:53:06,881:WARNING:C:\Users\Damian Lau\Desktop\MLOPS-App\src\functions.py:12: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  data[column] = data[column].astype("object")
+
+2025-02-28 22:53:08,548:WARNING:C:\Users\Damian Lau\Desktop\MLOPS-App\src\functions.py:12: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  data[column] = data[column].astype("object")
+
+2025-02-28 22:53:50,599:WARNING:C:\Users\Damian Lau\Desktop\MLOPS-App\src\functions.py:12: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  data[column] = data[column].astype("object")
+
+2025-02-28 22:53:57,484:WARNING:C:\Users\Damian Lau\Desktop\MLOPS-App\src\functions.py:12: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  data[column] = data[column].astype("object")
+
+2025-02-28 22:54:50,767:INFO:Initializing predict_model()
+2025-02-28 22:54:50,767:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001910B44A860>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('iterative_imputer',
+                 TransformerWrapper(transformer=IterativeImputer(cat_estimator=ExtraTreesClassifier(n_jobs=-1,
+                                                                                                    random_state=123),
+                                                                 cat_estimator_prepare_for_categoricals_type='ordinal',
+                                                                 categorical_indices=[0,
+                                                                                      3,
+                                                                                      4,
+                                                                                      10,
+                                                                                      11],
+                                                                 num_estimator=ExtraTreesRegressor(n_jobs=-1,
+                                                                                                   random_state=123),
+                                                                 num_estimator_prepare_f...
+                                    transformer=KBinsDiscretizer(encode='ordinal',
+                                                                 strategy='kmeans'))),
+                ('remove_outliers',
+                 TransformerWrapper(transformer=RemoveOutliers(random_state=123))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator',
+                 <catboost.core.CatBoostRegressor object at 0x0000019112566C20>)]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000019115C42290>)
+2025-02-28 22:54:50,767:INFO:Checking exceptions
+2025-02-28 22:54:50,769:INFO:Preloading libraries
+2025-02-28 22:54:50,769:INFO:Set up data.
+2025-02-28 22:54:50,783:INFO:Set up index.
+2025-02-28 22:54:50,825:WARNING:C:\Users\Damian Lau\AppData\Local\pypoetry\Cache\virtualenvs\mlops-app-x87fym7--py3.10\lib\site-packages\pycaret\internal\preprocess\transformers.py:396: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  X[name] = column.replace(self.to_other_[name], self.value)
+
+2025-02-28 22:54:50,828:WARNING:C:\Users\Damian Lau\AppData\Local\pypoetry\Cache\virtualenvs\mlops-app-x87fym7--py3.10\lib\site-packages\pycaret\internal\preprocess\transformers.py:396: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  X[name] = column.replace(self.to_other_[name], self.value)
+
+2025-02-28 22:54:50,832:WARNING:C:\Users\Damian Lau\AppData\Local\pypoetry\Cache\virtualenvs\mlops-app-x87fym7--py3.10\lib\site-packages\pycaret\internal\preprocess\transformers.py:396: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  X[name] = column.replace(self.to_other_[name], self.value)
+
+2025-02-28 22:56:02,018:WARNING:C:\Users\Damian Lau\Desktop\MLOPS-App\src\functions.py:12: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  data[column] = data[column].astype("object")
+
+2025-02-28 22:56:09,201:WARNING:C:\Users\Damian Lau\Desktop\MLOPS-App\src\functions.py:12: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  data[column] = data[column].astype("object")
+
+2025-02-28 22:57:01,479:WARNING:C:\Users\Damian Lau\Desktop\MLOPS-App\src\functions.py:12: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  data[column] = data[column].astype("object")
+
+2025-02-28 22:57:29,933:WARNING:C:\Users\Damian Lau\Desktop\MLOPS-App\src\functions.py:12: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  data[column] = data[column].astype("object")
+
+2025-02-28 22:57:48,451:INFO:Initializing predict_model()
+2025-02-28 22:57:48,451:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001910B448850>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('iterative_imputer',
+                 TransformerWrapper(transformer=IterativeImputer(cat_estimator=ExtraTreesClassifier(n_jobs=-1,
+                                                                                                    random_state=123),
+                                                                 cat_estimator_prepare_for_categoricals_type='ordinal',
+                                                                 categorical_indices=[0,
+                                                                                      3,
+                                                                                      4,
+                                                                                      10,
+                                                                                      11],
+                                                                 num_estimator=ExtraTreesRegressor(n_jobs=-1,
+                                                                                                   random_state=123),
+                                                                 num_estimator_prepare_f...
+                                    transformer=KBinsDiscretizer(encode='ordinal',
+                                                                 strategy='kmeans'))),
+                ('remove_outliers',
+                 TransformerWrapper(transformer=RemoveOutliers(random_state=123))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator',
+                 <catboost.core.CatBoostRegressor object at 0x0000019112566C20>)]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001910B36BA30>)
+2025-02-28 22:57:48,451:INFO:Checking exceptions
+2025-02-28 22:57:48,451:INFO:Preloading libraries
+2025-02-28 22:57:48,452:INFO:Set up data.
+2025-02-28 22:57:48,468:INFO:Set up index.
+2025-02-28 22:57:48,519:WARNING:C:\Users\Damian Lau\AppData\Local\pypoetry\Cache\virtualenvs\mlops-app-x87fym7--py3.10\lib\site-packages\pycaret\internal\preprocess\transformers.py:396: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  X[name] = column.replace(self.to_other_[name], self.value)
+
+2025-02-28 22:57:48,525:WARNING:C:\Users\Damian Lau\AppData\Local\pypoetry\Cache\virtualenvs\mlops-app-x87fym7--py3.10\lib\site-packages\pycaret\internal\preprocess\transformers.py:396: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  X[name] = column.replace(self.to_other_[name], self.value)
+
+2025-02-28 22:57:48,531:WARNING:C:\Users\Damian Lau\AppData\Local\pypoetry\Cache\virtualenvs\mlops-app-x87fym7--py3.10\lib\site-packages\pycaret\internal\preprocess\transformers.py:396: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  X[name] = column.replace(self.to_other_[name], self.value)
+
+2025-02-28 22:58:13,610:WARNING:C:\Users\Damian Lau\Desktop\MLOPS-App\src\functions.py:12: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  data[column] = data[column].astype("object")
+
+2025-02-28 22:58:58,006:WARNING:C:\Users\Damian Lau\Desktop\MLOPS-App\src\functions.py:12: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  data[column] = data[column].astype("object")
+
+2025-02-28 23:01:46,741:WARNING:C:\Users\Damian Lau\Desktop\MLOPS-App\src\functions.py:12: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  data[column] = data[column].astype("object")
+
+2025-02-28 23:02:01,649:INFO:Initializing predict_model()
+2025-02-28 23:02:01,649:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001910B482290>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('iterative_imputer',
+                 TransformerWrapper(transformer=IterativeImputer(cat_estimator=ExtraTreesClassifier(n_jobs=-1,
+                                                                                                    random_state=123),
+                                                                 cat_estimator_prepare_for_categoricals_type='ordinal',
+                                                                 categorical_indices=[0,
+                                                                                      3,
+                                                                                      4,
+                                                                                      10,
+                                                                                      11],
+                                                                 num_estimator=ExtraTreesRegressor(n_jobs=-1,
+                                                                                                   random_state=123),
+                                                                 num_estimator_prepare_f...
+                                    transformer=KBinsDiscretizer(encode='ordinal',
+                                                                 strategy='kmeans'))),
+                ('remove_outliers',
+                 TransformerWrapper(transformer=RemoveOutliers(random_state=123))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator',
+                 <catboost.core.CatBoostRegressor object at 0x0000019112566C20>)]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000019115C41E10>)
+2025-02-28 23:02:01,650:INFO:Checking exceptions
+2025-02-28 23:02:01,650:INFO:Preloading libraries
+2025-02-28 23:02:01,651:INFO:Set up data.
+2025-02-28 23:02:01,666:INFO:Set up index.
+2025-02-28 23:02:01,711:WARNING:C:\Users\Damian Lau\AppData\Local\pypoetry\Cache\virtualenvs\mlops-app-x87fym7--py3.10\lib\site-packages\pycaret\internal\preprocess\transformers.py:396: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  X[name] = column.replace(self.to_other_[name], self.value)
+
+2025-02-28 23:02:01,713:WARNING:C:\Users\Damian Lau\AppData\Local\pypoetry\Cache\virtualenvs\mlops-app-x87fym7--py3.10\lib\site-packages\pycaret\internal\preprocess\transformers.py:396: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  X[name] = column.replace(self.to_other_[name], self.value)
+
+2025-02-28 23:02:01,719:WARNING:C:\Users\Damian Lau\AppData\Local\pypoetry\Cache\virtualenvs\mlops-app-x87fym7--py3.10\lib\site-packages\pycaret\internal\preprocess\transformers.py:396: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  X[name] = column.replace(self.to_other_[name], self.value)
+
+2025-02-28 23:02:22,768:WARNING:C:\Users\Damian Lau\Desktop\MLOPS-App\src\functions.py:12: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  data[column] = data[column].astype("object")
+
+2025-02-28 23:02:45,391:WARNING:C:\Users\Damian Lau\Desktop\MLOPS-App\src\functions.py:12: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  data[column] = data[column].astype("object")
+
+2025-02-28 23:02:54,275:WARNING:C:\Users\Damian Lau\Desktop\MLOPS-App\src\functions.py:12: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  data[column] = data[column].astype("object")
+
+2025-02-28 23:03:07,231:WARNING:C:\Users\Damian Lau\Desktop\MLOPS-App\src\functions.py:12: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  data[column] = data[column].astype("object")
+
+2025-02-28 23:03:18,297:WARNING:C:\Users\Damian Lau\Desktop\MLOPS-App\src\functions.py:12: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  data[column] = data[column].astype("object")
+
+2025-02-28 23:03:33,712:WARNING:C:\Users\Damian Lau\Desktop\MLOPS-App\src\functions.py:12: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  data[column] = data[column].astype("object")
+
+2025-02-28 23:03:48,583:WARNING:C:\Users\Damian Lau\Desktop\MLOPS-App\src\functions.py:12: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  data[column] = data[column].astype("object")
+
+2025-02-28 23:04:30,375:WARNING:C:\Users\Damian Lau\Desktop\MLOPS-App\src\functions.py:12: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  data[column] = data[column].astype("object")
+
+2025-02-28 23:04:58,510:INFO:Initializing predict_model()
+2025-02-28 23:04:58,511:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001910B435480>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('iterative_imputer',
+                 TransformerWrapper(transformer=IterativeImputer(cat_estimator=ExtraTreesClassifier(n_jobs=-1,
+                                                                                                    random_state=123),
+                                                                 cat_estimator_prepare_for_categoricals_type='ordinal',
+                                                                 categorical_indices=[0,
+                                                                                      3,
+                                                                                      4,
+                                                                                      10,
+                                                                                      11],
+                                                                 num_estimator=ExtraTreesRegressor(n_jobs=-1,
+                                                                                                   random_state=123),
+                                                                 num_estimator_prepare_f...
+                                    transformer=KBinsDiscretizer(encode='ordinal',
+                                                                 strategy='kmeans'))),
+                ('remove_outliers',
+                 TransformerWrapper(transformer=RemoveOutliers(random_state=123))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator',
+                 <catboost.core.CatBoostRegressor object at 0x0000019112566C20>)]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000019115C40B80>)
+2025-02-28 23:04:58,511:INFO:Checking exceptions
+2025-02-28 23:04:58,512:INFO:Preloading libraries
+2025-02-28 23:04:58,513:INFO:Set up data.
+2025-02-28 23:04:58,527:INFO:Set up index.
+2025-02-28 23:04:58,576:WARNING:C:\Users\Damian Lau\AppData\Local\pypoetry\Cache\virtualenvs\mlops-app-x87fym7--py3.10\lib\site-packages\pycaret\internal\preprocess\transformers.py:396: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  X[name] = column.replace(self.to_other_[name], self.value)
+
+2025-02-28 23:04:58,580:WARNING:C:\Users\Damian Lau\AppData\Local\pypoetry\Cache\virtualenvs\mlops-app-x87fym7--py3.10\lib\site-packages\pycaret\internal\preprocess\transformers.py:396: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  X[name] = column.replace(self.to_other_[name], self.value)
+
+2025-02-28 23:04:58,585:WARNING:C:\Users\Damian Lau\AppData\Local\pypoetry\Cache\virtualenvs\mlops-app-x87fym7--py3.10\lib\site-packages\pycaret\internal\preprocess\transformers.py:396: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  X[name] = column.replace(self.to_other_[name], self.value)
+
+2025-02-28 23:06:35,741:WARNING:C:\Users\Damian Lau\Desktop\MLOPS-App\src\functions.py:12: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  data[column] = data[column].astype("object")
+
+2025-02-28 23:07:21,196:WARNING:C:\Users\Damian Lau\Desktop\MLOPS-App\src\functions.py:12: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  data[column] = data[column].astype("object")
+
+2025-02-28 23:07:27,913:WARNING:C:\Users\Damian Lau\Desktop\MLOPS-App\src\functions.py:12: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  data[column] = data[column].astype("object")
+
+2025-02-28 23:07:34,386:WARNING:C:\Users\Damian Lau\Desktop\MLOPS-App\src\functions.py:12: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  data[column] = data[column].astype("object")
+
+2025-02-28 23:08:15,079:INFO:Initializing predict_model()
+2025-02-28 23:08:15,079:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001910B482AD0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('iterative_imputer',
+                 TransformerWrapper(transformer=IterativeImputer(cat_estimator=ExtraTreesClassifier(n_jobs=-1,
+                                                                                                    random_state=123),
+                                                                 cat_estimator_prepare_for_categoricals_type='ordinal',
+                                                                 categorical_indices=[0,
+                                                                                      3,
+                                                                                      4,
+                                                                                      10,
+                                                                                      11],
+                                                                 num_estimator=ExtraTreesRegressor(n_jobs=-1,
+                                                                                                   random_state=123),
+                                                                 num_estimator_prepare_f...
+                                    transformer=KBinsDiscretizer(encode='ordinal',
+                                                                 strategy='kmeans'))),
+                ('remove_outliers',
+                 TransformerWrapper(transformer=RemoveOutliers(random_state=123))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator',
+                 <catboost.core.CatBoostRegressor object at 0x0000019112566C20>)]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000019115C420E0>)
+2025-02-28 23:08:15,079:INFO:Checking exceptions
+2025-02-28 23:08:15,079:INFO:Preloading libraries
+2025-02-28 23:08:15,080:INFO:Set up data.
+2025-02-28 23:08:15,094:INFO:Set up index.
+2025-02-28 23:08:15,137:WARNING:C:\Users\Damian Lau\AppData\Local\pypoetry\Cache\virtualenvs\mlops-app-x87fym7--py3.10\lib\site-packages\pycaret\internal\preprocess\transformers.py:396: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  X[name] = column.replace(self.to_other_[name], self.value)
+
+2025-02-28 23:08:15,140:WARNING:C:\Users\Damian Lau\AppData\Local\pypoetry\Cache\virtualenvs\mlops-app-x87fym7--py3.10\lib\site-packages\pycaret\internal\preprocess\transformers.py:396: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  X[name] = column.replace(self.to_other_[name], self.value)
+
+2025-02-28 23:08:15,145:WARNING:C:\Users\Damian Lau\AppData\Local\pypoetry\Cache\virtualenvs\mlops-app-x87fym7--py3.10\lib\site-packages\pycaret\internal\preprocess\transformers.py:396: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  X[name] = column.replace(self.to_other_[name], self.value)
+
+2025-02-28 23:08:46,267:WARNING:C:\Users\Damian Lau\Desktop\MLOPS-App\src\functions.py:12: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  data[column] = data[column].astype("object")
+
+2025-02-28 23:08:58,486:WARNING:C:\Users\Damian Lau\Desktop\MLOPS-App\src\functions.py:12: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  data[column] = data[column].astype("object")
+
+2025-02-28 23:09:09,129:WARNING:C:\Users\Damian Lau\Desktop\MLOPS-App\src\functions.py:12: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  data[column] = data[column].astype("object")
+
+2025-02-28 23:09:12,738:WARNING:C:\Users\Damian Lau\Desktop\MLOPS-App\src\functions.py:12: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  data[column] = data[column].astype("object")
+
+2025-02-28 23:10:26,897:WARNING:C:\Users\Damian Lau\Desktop\MLOPS-App\src\functions.py:12: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  data[column] = data[column].astype("object")
+

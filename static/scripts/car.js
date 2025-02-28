@@ -1,5 +1,6 @@
 let form = document.getElementById("form");
 let result = document.getElementById("result");
+let loader = document.getElementById("loader");
 let fields_load = document.getElementById("fields-load");
 
 // ignore the target attribute
@@ -42,6 +43,10 @@ form.addEventListener("submit", (event) => {
         return;
     }
 
+    // disable the submit button
+    form.querySelector("input[type=submit]").disabled = true;
+    loader.style.display = "flex";
+
     let data = {};
     let elements = form.elements;
 
@@ -61,10 +66,14 @@ form.addEventListener("submit", (event) => {
         .then((response) => response.json())
         .then((data) => {
             console.log("Prediction successful", data);
-            result.innerHTML = "Predicted Price: " + data.prediction;
+            result.innerHTML = "₹" + data.prediction.toFixed(2);
+            form.querySelector("input[type=submit]").disabled = false;
+            loader.style.display = "none";
         })
         .catch((error) => {
             console.error("Error:", error);
             alert("Error occurred. Please try again.");
+            form.querySelector("input[type=submit]").disabled = false;
+            loader.style.display = "none";
         });
 });
