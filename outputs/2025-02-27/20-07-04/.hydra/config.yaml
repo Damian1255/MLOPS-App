@@ -1,0 +1,23 @@
+data:
+  car_prices:
+    raw:
+      path: data/raw/01_Used_Car_Prices.csv
+    processed:
+      path: data/processed/02_Used_Car_Prices.xlsx
+model:
+  car_prices:
+    path: models/final_model
+columns:
+  car_prices:
+  - Brand_Model
+  - Location
+  - Year
+  - Kilometers_Driven
+  - Fuel_Type
+  - Transmission
+  - Owner_Type
+  - Mileage
+  - Engine
+  - Power
+  - Seats
+  - Price (INR Lakhs)

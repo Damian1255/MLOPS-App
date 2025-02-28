@@ -1,0 +1,11 @@
+[2025-02-27 21:00:28,563][werkzeug][WARNING] -  * Debugger is active!
+[2025-02-27 21:00:28,568][werkzeug][INFO] -  * Debugger PIN: 465-565-298
+[2025-02-27 21:00:28,920][werkzeug][INFO] - 127.0.0.1 - - [27/Feb/2025 21:00:28] "GET /predict/car-price HTTP/1.1" 200 -
+[2025-02-27 21:00:28,967][werkzeug][INFO] - 127.0.0.1 - - [27/Feb/2025 21:00:28] "[33mGET /static/js/car.js HTTP/1.1[0m" 404 -
+[2025-02-27 21:00:28,980][werkzeug][INFO] - 127.0.0.1 - - [27/Feb/2025 21:00:28] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-02-27 21:00:40,090][werkzeug][INFO] - 127.0.0.1 - - [27/Feb/2025 21:00:40] "GET /predict/car-price HTTP/1.1" 200 -
+[2025-02-27 21:00:40,116][werkzeug][INFO] - 127.0.0.1 - - [27/Feb/2025 21:00:40] "[33mGET /static/js/car.js HTTP/1.1[0m" 404 -
+[2025-02-27 21:00:40,146][werkzeug][INFO] - 127.0.0.1 - - [27/Feb/2025 21:00:40] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-02-27 21:00:45,857][werkzeug][INFO] - 127.0.0.1 - - [27/Feb/2025 21:00:45] "GET /predict/car-price HTTP/1.1" 200 -
+[2025-02-27 21:00:45,881][werkzeug][INFO] - 127.0.0.1 - - [27/Feb/2025 21:00:45] "[33mGET /static/scripts/car.js HTTP/1.1[0m" 404 -
+[2025-02-27 21:00:45,916][werkzeug][INFO] - 127.0.0.1 - - [27/Feb/2025 21:00:45] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -

@@ -1,0 +1,9 @@
+[2025-02-27 20:35:26,514][werkzeug][INFO] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+[2025-02-27 20:35:26,515][werkzeug][INFO] - [33mPress CTRL+C to quit[0m
+[2025-02-27 20:35:26,518][werkzeug][INFO] -  * Restarting with stat
+[2025-02-27 20:39:00,238][werkzeug][INFO] -  * Restarting with stat
+[2025-02-27 20:41:37,320][werkzeug][INFO] -  * Restarting with stat
+[2025-02-27 20:42:48,422][werkzeug][INFO] -  * Restarting with stat
+[2025-02-27 20:43:51,894][werkzeug][INFO] -  * Restarting with stat
+[2025-02-27 20:44:21,620][werkzeug][INFO] -  * Restarting with stat

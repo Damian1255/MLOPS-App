@@ -1,0 +1,16 @@
+[2025-02-28 02:18:19,703][werkzeug][WARNING] -  * Debugger is active!
+[2025-02-28 02:18:19,711][werkzeug][INFO] -  * Debugger PIN: 465-565-298
+[2025-02-28 02:18:20,256][werkzeug][INFO] - 127.0.0.1 - - [28/Feb/2025 02:18:20] "GET /predict/car-price HTTP/1.1" 200 -
+[2025-02-28 02:18:20,345][werkzeug][INFO] - 127.0.0.1 - - [28/Feb/2025 02:18:20] "[36mGET /static/styles/main.css HTTP/1.1[0m" 304 -
+[2025-02-28 02:18:20,349][werkzeug][INFO] - 127.0.0.1 - - [28/Feb/2025 02:18:20] "[36mGET /static/styles/car.css HTTP/1.1[0m" 304 -
+[2025-02-28 02:18:20,361][werkzeug][INFO] - 127.0.0.1 - - [28/Feb/2025 02:18:20] "GET /static/scripts/car.js HTTP/1.1" 200 -
+[2025-02-28 02:18:20,432][werkzeug][INFO] - 127.0.0.1 - - [28/Feb/2025 02:18:20] "POST /predict/car-price HTTP/1.1" 200 -
+[2025-02-28 02:18:20,434][werkzeug][INFO] - 127.0.0.1 - - [28/Feb/2025 02:18:20] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-02-28 02:18:23,199][werkzeug][INFO] - 127.0.0.1 - - [28/Feb/2025 02:18:23] "GET /predict/car-price HTTP/1.1" 200 -
+[2025-02-28 02:18:23,261][werkzeug][INFO] - 127.0.0.1 - - [28/Feb/2025 02:18:23] "[36mGET /static/styles/main.css HTTP/1.1[0m" 304 -
+[2025-02-28 02:18:23,269][werkzeug][INFO] - 127.0.0.1 - - [28/Feb/2025 02:18:23] "[36mGET /static/styles/car.css HTTP/1.1[0m" 304 -
+[2025-02-28 02:18:23,273][werkzeug][INFO] - 127.0.0.1 - - [28/Feb/2025 02:18:23] "[36mGET /static/scripts/car.js HTTP/1.1[0m" 304 -
+[2025-02-28 02:18:23,315][werkzeug][INFO] - 127.0.0.1 - - [28/Feb/2025 02:18:23] "POST /predict/car-price HTTP/1.1" 200 -
+[2025-02-28 02:18:32,181][werkzeug][INFO] - 127.0.0.1 - - [28/Feb/2025 02:18:32] "[36mGET /static/styles/main.css HTTP/1.1[0m" 304 -
+[2025-02-28 02:18:32,184][werkzeug][INFO] - 127.0.0.1 - - [28/Feb/2025 02:18:32] "[36mGET /static/styles/car.css HTTP/1.1[0m" 304 -
+[2025-02-28 02:18:51,857][werkzeug][INFO] -  * Detected change in 'C:\\Users\\Damian Lau\\Desktop\\MLOPS-App\\src\\app.py', reloading

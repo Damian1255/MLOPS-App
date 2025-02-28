@@ -1,0 +1,6 @@
+[2025-02-27 21:14:17,528][werkzeug][WARNING] -  * Debugger is active!
+[2025-02-27 21:14:17,533][werkzeug][INFO] -  * Debugger PIN: 465-565-298
+[2025-02-27 21:15:29,169][werkzeug][INFO] - 127.0.0.1 - - [27/Feb/2025 21:15:29] "GET /predict/car-price HTTP/1.1" 200 -
+[2025-02-27 21:15:29,200][werkzeug][INFO] - 127.0.0.1 - - [27/Feb/2025 21:15:29] "GET /static/scripts/car.js HTTP/1.1" 200 -
+[2025-02-27 21:15:29,291][werkzeug][INFO] - 127.0.0.1 - - [27/Feb/2025 21:15:29] "[35m[1mGET /api/attributes/car-price HTTP/1.1[0m" 500 -
+[2025-02-27 21:15:38,550][werkzeug][INFO] -  * Detected change in 'C:\\Users\\Damian Lau\\Desktop\\MLOPS-App\\src\\app.py', reloading

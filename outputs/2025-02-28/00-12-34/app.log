@@ -1,0 +1,8 @@
+[2025-02-28 00:12:37,825][werkzeug][WARNING] -  * Debugger is active!
+[2025-02-28 00:12:37,830][werkzeug][INFO] -  * Debugger PIN: 465-565-298
+[2025-02-28 00:14:04,182][werkzeug][INFO] - 127.0.0.1 - - [28/Feb/2025 00:14:04] "GET /predict/car-price HTTP/1.1" 200 -
+[2025-02-28 00:14:04,209][werkzeug][INFO] - 127.0.0.1 - - [28/Feb/2025 00:14:04] "[36mGET /static/scripts/car.js HTTP/1.1[0m" 304 -
+[2025-02-28 00:14:04,250][werkzeug][INFO] - 127.0.0.1 - - [28/Feb/2025 00:14:04] "[35m[1mPOST /predict/car-price HTTP/1.1[0m" 500 -
+[2025-02-28 00:14:06,775][werkzeug][INFO] - 127.0.0.1 - - [28/Feb/2025 00:14:06] "GET /predict/car-price HTTP/1.1" 200 -
+[2025-02-28 00:14:06,808][werkzeug][INFO] - 127.0.0.1 - - [28/Feb/2025 00:14:06] "[36mGET /static/scripts/car.js HTTP/1.1[0m" 304 -
+[2025-02-28 00:14:06,830][werkzeug][INFO] - 127.0.0.1 - - [28/Feb/2025 00:14:06] "[35m[1mPOST /predict/car-price HTTP/1.1[0m" 500 -

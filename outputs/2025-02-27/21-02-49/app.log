@@ -1,0 +1,13 @@
+[2025-02-27 21:02:52,908][werkzeug][WARNING] -  * Debugger is active!
+[2025-02-27 21:02:52,913][werkzeug][INFO] -  * Debugger PIN: 465-565-298
+[2025-02-27 21:02:58,814][werkzeug][INFO] - 127.0.0.1 - - [27/Feb/2025 21:02:58] "[35m[1mGET /predict/car-price HTTP/1.1[0m" 500 -
+[2025-02-27 21:02:58,842][werkzeug][INFO] - 127.0.0.1 - - [27/Feb/2025 21:02:58] "GET /predict/car-price?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2025-02-27 21:02:58,892][werkzeug][INFO] - 127.0.0.1 - - [27/Feb/2025 21:02:58] "GET /predict/car-price?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2025-02-27 21:02:58,930][werkzeug][INFO] - 127.0.0.1 - - [27/Feb/2025 21:02:58] "GET /predict/car-price?__debugger__=yes&cmd=resource&f=console.png&s=UKutIfipVQukYZ372TPN HTTP/1.1" 200 -
+[2025-02-27 21:02:58,947][werkzeug][INFO] - 127.0.0.1 - - [27/Feb/2025 21:02:58] "GET /predict/car-price?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2025-02-27 21:03:01,176][werkzeug][INFO] - 127.0.0.1 - - [27/Feb/2025 21:03:01] "[35m[1mGET /predict/car-price HTTP/1.1[0m" 500 -
+[2025-02-27 21:03:01,200][werkzeug][INFO] - 127.0.0.1 - - [27/Feb/2025 21:03:01] "GET /predict/car-price?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2025-02-27 21:03:01,202][werkzeug][INFO] - 127.0.0.1 - - [27/Feb/2025 21:03:01] "GET /predict/car-price?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2025-02-27 21:03:01,241][werkzeug][INFO] - 127.0.0.1 - - [27/Feb/2025 21:03:01] "GET /predict/car-price?__debugger__=yes&cmd=resource&f=console.png&s=UKutIfipVQukYZ372TPN HTTP/1.1" 200 -
+[2025-02-27 21:03:01,271][werkzeug][INFO] - 127.0.0.1 - - [27/Feb/2025 21:03:01] "GET /predict/car-price?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2025-02-27 21:03:13,875][werkzeug][INFO] -  * Detected change in 'C:\\Users\\Damian Lau\\Desktop\\MLOPS-App\\src\\app.py', reloading

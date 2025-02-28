@@ -1,0 +1,11 @@
+[2025-02-28 00:21:14,287][werkzeug][WARNING] -  * Debugger is active!
+[2025-02-28 00:21:14,293][werkzeug][INFO] -  * Debugger PIN: 465-565-298
+[2025-02-28 00:22:14,063][werkzeug][INFO] - 127.0.0.1 - - [28/Feb/2025 00:22:14] "GET /predict/car-price HTTP/1.1" 200 -
+[2025-02-28 00:22:14,090][werkzeug][INFO] - 127.0.0.1 - - [28/Feb/2025 00:22:14] "GET /static/scripts/car.js HTTP/1.1" 200 -
+[2025-02-28 00:22:14,106][werkzeug][INFO] - 127.0.0.1 - - [28/Feb/2025 00:22:14] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-02-28 00:22:14,144][werkzeug][INFO] - 127.0.0.1 - - [28/Feb/2025 00:22:14] "[35m[1mPOST /predict/car-price HTTP/1.1[0m" 500 -
+[2025-02-28 00:22:15,168][werkzeug][INFO] - 127.0.0.1 - - [28/Feb/2025 00:22:15] "GET /predict/car-price HTTP/1.1" 200 -
+[2025-02-28 00:22:15,198][werkzeug][INFO] - 127.0.0.1 - - [28/Feb/2025 00:22:15] "GET /static/scripts/car.js HTTP/1.1" 200 -
+[2025-02-28 00:22:15,212][werkzeug][INFO] - 127.0.0.1 - - [28/Feb/2025 00:22:15] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-02-28 00:22:15,226][werkzeug][INFO] - 127.0.0.1 - - [28/Feb/2025 00:22:15] "[35m[1mPOST /predict/car-price HTTP/1.1[0m" 500 -
+[2025-02-28 00:22:58,831][werkzeug][INFO] -  * Detected change in 'C:\\Users\\Damian Lau\\Desktop\\MLOPS-App\\src\\functions.py', reloading

@@ -1,0 +1,47 @@
+[2025-02-27 19:29:03,748][werkzeug][INFO] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+[2025-02-27 19:29:03,750][werkzeug][INFO] - [33mPress CTRL+C to quit[0m
+[2025-02-27 19:29:13,170][werkzeug][INFO] - 127.0.0.1 - - [27/Feb/2025 19:29:13] "GET / HTTP/1.1" 200 -
+[2025-02-27 19:29:13,309][werkzeug][INFO] - 127.0.0.1 - - [27/Feb/2025 19:29:13] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-02-27 19:29:15,040][app][ERROR] - Exception on /predict/car-price [GET]
+Traceback (most recent call last):
+  File "C:\Users\Damian Lau\AppData\Local\pypoetry\Cache\virtualenvs\mlops-app-x87fym7--py3.10\lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Damian Lau\AppData\Local\pypoetry\Cache\virtualenvs\mlops-app-x87fym7--py3.10\lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Damian Lau\AppData\Local\pypoetry\Cache\virtualenvs\mlops-app-x87fym7--py3.10\lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Damian Lau\AppData\Local\pypoetry\Cache\virtualenvs\mlops-app-x87fym7--py3.10\lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "C:\Users\Damian Lau\Desktop\MLOPS-App\src\app.py", line 41, in car_prices_page
+    return render_template("carprices.html", attributes=car_attributes)
+NameError: name 'car_attributes' is not defined
+[2025-02-27 19:29:15,065][werkzeug][INFO] - 127.0.0.1 - - [27/Feb/2025 19:29:15] "[35m[1mGET /predict/car-price HTTP/1.1[0m" 500 -
+[2025-02-27 19:31:29,689][app][ERROR] - Exception on /predict/car-price [GET]
+Traceback (most recent call last):
+  File "C:\Users\Damian Lau\AppData\Local\pypoetry\Cache\virtualenvs\mlops-app-x87fym7--py3.10\lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Damian Lau\AppData\Local\pypoetry\Cache\virtualenvs\mlops-app-x87fym7--py3.10\lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Damian Lau\AppData\Local\pypoetry\Cache\virtualenvs\mlops-app-x87fym7--py3.10\lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Damian Lau\AppData\Local\pypoetry\Cache\virtualenvs\mlops-app-x87fym7--py3.10\lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "C:\Users\Damian Lau\Desktop\MLOPS-App\src\app.py", line 41, in car_prices_page
+NameError: name 'car_attributes' is not defined
+[2025-02-27 19:31:29,767][werkzeug][INFO] - 127.0.0.1 - - [27/Feb/2025 19:31:29] "[35m[1mGET /predict/car-price HTTP/1.1[0m" 500 -
+[2025-02-27 19:31:33,670][werkzeug][INFO] - 127.0.0.1 - - [27/Feb/2025 19:31:33] "GET / HTTP/1.1" 200 -
+[2025-02-27 19:31:33,737][werkzeug][INFO] - 127.0.0.1 - - [27/Feb/2025 19:31:33] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-02-27 19:31:34,578][app][ERROR] - Exception on /predict/car-price [GET]
+Traceback (most recent call last):
+  File "C:\Users\Damian Lau\AppData\Local\pypoetry\Cache\virtualenvs\mlops-app-x87fym7--py3.10\lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Damian Lau\AppData\Local\pypoetry\Cache\virtualenvs\mlops-app-x87fym7--py3.10\lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Damian Lau\AppData\Local\pypoetry\Cache\virtualenvs\mlops-app-x87fym7--py3.10\lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Damian Lau\AppData\Local\pypoetry\Cache\virtualenvs\mlops-app-x87fym7--py3.10\lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "C:\Users\Damian Lau\Desktop\MLOPS-App\src\app.py", line 41, in car_prices_page
+NameError: name 'car_attributes' is not defined
+[2025-02-27 19:31:34,594][werkzeug][INFO] - 127.0.0.1 - - [27/Feb/2025 19:31:34] "[35m[1mGET /predict/car-price HTTP/1.1[0m" 500 -

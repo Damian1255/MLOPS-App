@@ -1,0 +1,13 @@
+[2025-02-27 22:27:28,788][werkzeug][WARNING] -  * Debugger is active!
+[2025-02-27 22:27:28,793][werkzeug][INFO] -  * Debugger PIN: 465-565-298
+[2025-02-27 22:27:29,137][werkzeug][INFO] - 127.0.0.1 - - [27/Feb/2025 22:27:29] "GET /predict/car-price HTTP/1.1" 200 -
+[2025-02-27 22:27:29,140][werkzeug][INFO] - 127.0.0.1 - - [27/Feb/2025 22:27:29] "GET /predict/car-price HTTP/1.1" 200 -
+[2025-02-27 22:27:29,144][werkzeug][INFO] - 127.0.0.1 - - [27/Feb/2025 22:27:29] "GET /predict/car-price HTTP/1.1" 200 -
+[2025-02-27 22:27:29,193][werkzeug][INFO] - 127.0.0.1 - - [27/Feb/2025 22:27:29] "[36mGET /static/scripts/car.js HTTP/1.1[0m" 304 -
+[2025-02-27 22:27:29,235][werkzeug][INFO] - 127.0.0.1 - - [27/Feb/2025 22:27:29] "GET /api/attributes/car-price HTTP/1.1" 200 -
+[2025-02-27 22:27:29,237][werkzeug][INFO] - 127.0.0.1 - - [27/Feb/2025 22:27:29] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-02-27 22:28:03,335][werkzeug][INFO] - 127.0.0.1 - - [27/Feb/2025 22:28:03] "[35m[1mPOST /api/predict/car-price HTTP/1.1[0m" 500 -
+[2025-02-27 22:28:03,394][werkzeug][INFO] - 127.0.0.1 - - [27/Feb/2025 22:28:03] "[36mGET /api/predict/car-price?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2025-02-27 22:28:03,397][werkzeug][INFO] - 127.0.0.1 - - [27/Feb/2025 22:28:03] "[36mGET /api/predict/car-price?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2025-02-27 22:28:03,453][werkzeug][INFO] - 127.0.0.1 - - [27/Feb/2025 22:28:03] "GET /api/predict/car-price?__debugger__=yes&cmd=resource&f=console.png&s=eXZl7WBKSFTg2JuXYsve HTTP/1.1" 200 -
+[2025-02-27 22:29:34,623][werkzeug][INFO] -  * Detected change in 'C:\\Users\\Damian Lau\\Desktop\\MLOPS-App\\src\\app.py', reloading

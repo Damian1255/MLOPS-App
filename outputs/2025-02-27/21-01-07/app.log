@@ -1,0 +1,22 @@
+[2025-02-27 21:01:10,828][werkzeug][INFO] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+[2025-02-27 21:01:10,828][werkzeug][INFO] - [33mPress CTRL+C to quit[0m
+[2025-02-27 21:01:10,832][werkzeug][INFO] -  * Restarting with stat
+[2025-02-27 21:02:40,064][werkzeug][INFO] -  * Restarting with stat
+[2025-02-27 21:03:14,728][werkzeug][INFO] -  * Restarting with stat
+[2025-02-27 21:14:05,438][werkzeug][INFO] -  * Restarting with stat
+[2025-02-27 21:15:39,409][werkzeug][INFO] -  * Restarting with stat
+[2025-02-27 21:16:52,724][werkzeug][INFO] -  * Restarting with stat
+[2025-02-27 21:27:26,348][werkzeug][INFO] -  * Restarting with stat
+[2025-02-27 21:28:31,998][werkzeug][INFO] -  * Restarting with stat
+[2025-02-27 21:48:45,691][werkzeug][INFO] -  * Restarting with stat
+[2025-02-27 21:49:31,658][werkzeug][INFO] -  * Restarting with stat
+[2025-02-27 21:52:25,914][werkzeug][INFO] -  * Restarting with stat
+[2025-02-27 21:55:30,017][werkzeug][INFO] -  * Restarting with stat
+[2025-02-27 21:56:41,255][werkzeug][INFO] -  * Restarting with stat
+[2025-02-27 21:59:19,134][werkzeug][INFO] -  * Restarting with stat
+[2025-02-27 22:03:15,274][werkzeug][INFO] -  * Restarting with stat
+[2025-02-27 22:04:47,683][werkzeug][INFO] -  * Restarting with stat
+[2025-02-27 22:10:49,798][werkzeug][INFO] -  * Restarting with stat
+[2025-02-27 22:20:28,941][werkzeug][INFO] -  * Restarting with stat
+[2025-02-27 22:20:50,373][werkzeug][INFO] -  * Restarting with stat

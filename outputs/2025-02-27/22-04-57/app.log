@@ -1,0 +1,13 @@
+[2025-02-27 22:05:00,613][werkzeug][WARNING] -  * Debugger is active!
+[2025-02-27 22:05:00,618][werkzeug][INFO] -  * Debugger PIN: 465-565-298
+[2025-02-27 22:05:00,965][werkzeug][INFO] - 127.0.0.1 - - [27/Feb/2025 22:05:00] "POST /api/predict/car-price HTTP/1.1" 200 -
+[2025-02-27 22:05:01,033][werkzeug][INFO] - 127.0.0.1 - - [27/Feb/2025 22:05:01] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-02-27 22:07:36,737][werkzeug][INFO] - 127.0.0.1 - - [27/Feb/2025 22:07:36] "GET /predict/car-price HTTP/1.1" 200 -
+[2025-02-27 22:07:36,779][werkzeug][INFO] - 127.0.0.1 - - [27/Feb/2025 22:07:36] "GET /static/scripts/car.js HTTP/1.1" 200 -
+[2025-02-27 22:07:36,815][werkzeug][INFO] - 127.0.0.1 - - [27/Feb/2025 22:07:36] "GET /api/attributes/car-price HTTP/1.1" 200 -
+[2025-02-27 22:09:25,076][werkzeug][INFO] - 127.0.0.1 - - [27/Feb/2025 22:09:25] "GET /predict/car-price HTTP/1.1" 200 -
+[2025-02-27 22:09:25,155][werkzeug][INFO] - 127.0.0.1 - - [27/Feb/2025 22:09:25] "GET /static/scripts/car.js HTTP/1.1" 200 -
+[2025-02-27 22:09:25,180][werkzeug][INFO] - 127.0.0.1 - - [27/Feb/2025 22:09:25] "GET /api/attributes/car-price HTTP/1.1" 200 -
+[2025-02-27 22:09:25,184][werkzeug][INFO] - 127.0.0.1 - - [27/Feb/2025 22:09:25] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-02-27 22:10:25,767][werkzeug][INFO] - 127.0.0.1 - - [27/Feb/2025 22:10:25] "POST /api/predict/car-price HTTP/1.1" 200 -
+[2025-02-27 22:10:48,958][werkzeug][INFO] -  * Detected change in 'C:\\Users\\Damian Lau\\Desktop\\MLOPS-App\\src\\app.py', reloading

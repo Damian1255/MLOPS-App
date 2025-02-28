@@ -1,0 +1,6 @@
+[2025-02-27 19:31:57,875][werkzeug][INFO] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+[2025-02-27 19:31:57,876][werkzeug][INFO] - [33mPress CTRL+C to quit[0m
+[2025-02-27 19:32:24,261][werkzeug][INFO] - 127.0.0.1 - - [27/Feb/2025 19:32:24] "GET /predict/car-price HTTP/1.1" 200 -
+[2025-02-27 19:32:24,336][werkzeug][INFO] - 127.0.0.1 - - [27/Feb/2025 19:32:24] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-02-27 19:32:27,297][werkzeug][INFO] - 127.0.0.1 - - [27/Feb/2025 19:32:27] "GET /predict/car-price HTTP/1.1" 200 -
