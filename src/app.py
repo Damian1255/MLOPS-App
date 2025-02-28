@@ -3,8 +3,8 @@ import json
 import hydra
 import numpy as np
 import pandas as pd
-import preprocess
-import functions
+import src.preprocess as preprocess
+import src.functions as functions
 import pycaret.regression as pr
 from omegaconf import DictConfig
 import pycaret.classification as pc
