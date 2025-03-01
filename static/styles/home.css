@@ -45,7 +45,8 @@ body {
     justify-content: flex-start;
 }
 
-.card video {
+.card video,
+img {
     width: 100%;
     height: inherit;
     object-fit: cover;
