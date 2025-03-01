@@ -1,0 +1,19 @@
+[2025-03-01 14:57:40,675][werkzeug][WARNING] -  * Debugger is active!
+[2025-03-01 14:57:40,682][werkzeug][INFO] -  * Debugger PIN: 465-565-298
+[2025-03-01 14:58:01,095][werkzeug][INFO] - 127.0.0.1 - - [01/Mar/2025 14:58:01] "GET /predict/house-price HTTP/1.1" 200 -
+[2025-03-01 14:58:01,177][werkzeug][INFO] - 127.0.0.1 - - [01/Mar/2025 14:58:01] "GET /static/styles/car.css HTTP/1.1" 200 -
+[2025-03-01 14:58:01,180][werkzeug][INFO] - 127.0.0.1 - - [01/Mar/2025 14:58:01] "GET /static/styles/main.css HTTP/1.1" 200 -
+[2025-03-01 14:58:01,186][werkzeug][INFO] - 127.0.0.1 - - [01/Mar/2025 14:58:01] "GET /static/images/loader.svg HTTP/1.1" 200 -
+[2025-03-01 14:58:01,199][werkzeug][INFO] - 127.0.0.1 - - [01/Mar/2025 14:58:01] "GET /static/scripts/functions.js HTTP/1.1" 200 -
+[2025-03-01 14:58:01,203][werkzeug][INFO] - 127.0.0.1 - - [01/Mar/2025 14:58:01] "GET /static/scripts/house.js HTTP/1.1" 200 -
+[2025-03-01 14:58:01,269][werkzeug][INFO] - 127.0.0.1 - - [01/Mar/2025 14:58:01] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-03-01 14:58:01,385][werkzeug][INFO] - 127.0.0.1 - - [01/Mar/2025 14:58:01] "POST /predict/house-price HTTP/1.1" 200 -
+[2025-03-01 15:00:12,939][werkzeug][INFO] - 127.0.0.1 - - [01/Mar/2025 15:00:12] "GET /predict/house-price HTTP/1.1" 200 -
+[2025-03-01 15:00:13,015][werkzeug][INFO] - 127.0.0.1 - - [01/Mar/2025 15:00:13] "GET /static/styles/car.css HTTP/1.1" 200 -
+[2025-03-01 15:00:13,018][werkzeug][INFO] - 127.0.0.1 - - [01/Mar/2025 15:00:13] "GET /static/styles/main.css HTTP/1.1" 200 -
+[2025-03-01 15:00:13,018][werkzeug][INFO] - 127.0.0.1 - - [01/Mar/2025 15:00:13] "GET /static/images/loader.svg HTTP/1.1" 200 -
+[2025-03-01 15:00:13,022][werkzeug][INFO] - 127.0.0.1 - - [01/Mar/2025 15:00:13] "GET /static/scripts/functions.js HTTP/1.1" 200 -
+[2025-03-01 15:00:13,108][werkzeug][INFO] - 127.0.0.1 - - [01/Mar/2025 15:00:13] "GET /static/scripts/house.js HTTP/1.1" 200 -
+[2025-03-01 15:00:13,139][werkzeug][INFO] - 127.0.0.1 - - [01/Mar/2025 15:00:13] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-03-01 15:00:13,242][werkzeug][INFO] - 127.0.0.1 - - [01/Mar/2025 15:00:13] "POST /predict/house-price HTTP/1.1" 200 -
+[2025-03-01 15:00:52,892][werkzeug][INFO] -  * Detected change in 'C:\\Users\\Damian Lau\\Desktop\\MLOPS-App\\src\\functions.py', reloading

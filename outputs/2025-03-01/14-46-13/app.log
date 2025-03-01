@@ -1,0 +1,44 @@
+[2025-03-01 14:46:20,690][werkzeug][INFO] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.112:8080
+[2025-03-01 14:46:20,692][werkzeug][INFO] - [33mPress CTRL+C to quit[0m
+[2025-03-01 14:46:47,701][werkzeug][INFO] - 127.0.0.1 - - [01/Mar/2025 14:46:47] "GET / HTTP/1.1" 200 -
+[2025-03-01 14:46:47,796][werkzeug][INFO] - 127.0.0.1 - - [01/Mar/2025 14:46:47] "[36mGET /static/styles/main.css HTTP/1.1[0m" 304 -
+[2025-03-01 14:46:47,799][werkzeug][INFO] - 127.0.0.1 - - [01/Mar/2025 14:46:47] "[36mGET /static/styles/home.css HTTP/1.1[0m" 304 -
+[2025-03-01 14:46:47,803][werkzeug][INFO] - 127.0.0.1 - - [01/Mar/2025 14:46:47] "[36mGET /static/scripts/home.js HTTP/1.1[0m" 304 -
+[2025-03-01 14:46:47,821][werkzeug][INFO] - 127.0.0.1 - - [01/Mar/2025 14:46:47] "[35m[1mGET /static/video/3.mov HTTP/1.1[0m" 206 -
+[2025-03-01 14:46:47,824][werkzeug][INFO] - 127.0.0.1 - - [01/Mar/2025 14:46:47] "[35m[1mGET /static/video/2.mov HTTP/1.1[0m" 206 -
+[2025-03-01 14:46:47,831][werkzeug][INFO] - 127.0.0.1 - - [01/Mar/2025 14:46:47] "[35m[1mGET /static/video/1.mp4 HTTP/1.1[0m" 206 -
+[2025-03-01 14:46:47,842][werkzeug][INFO] - 127.0.0.1 - - [01/Mar/2025 14:46:47] "[35m[1mGET /static/video/2.mov HTTP/1.1[0m" 206 -
+[2025-03-01 14:46:47,920][werkzeug][INFO] - 127.0.0.1 - - [01/Mar/2025 14:46:47] "[35m[1mGET /static/video/2.mov HTTP/1.1[0m" 206 -
+[2025-03-01 14:46:47,926][werkzeug][INFO] - 127.0.0.1 - - [01/Mar/2025 14:46:47] "[35m[1mGET /static/video/3.mov HTTP/1.1[0m" 206 -
+[2025-03-01 14:46:48,248][werkzeug][INFO] - 127.0.0.1 - - [01/Mar/2025 14:46:48] "[35m[1mGET /static/video/2.mov HTTP/1.1[0m" 206 -
+[2025-03-01 14:46:48,304][werkzeug][INFO] - 127.0.0.1 - - [01/Mar/2025 14:46:48] "[35m[1mGET /static/video/2.mov HTTP/1.1[0m" 206 -
+[2025-03-01 14:46:48,313][werkzeug][INFO] - 127.0.0.1 - - [01/Mar/2025 14:46:48] "[35m[1mGET /static/video/3.mov HTTP/1.1[0m" 206 -
+[2025-03-01 14:46:48,315][werkzeug][INFO] - 127.0.0.1 - - [01/Mar/2025 14:46:48] "[35m[1mGET /static/video/2.mov HTTP/1.1[0m" 206 -
+[2025-03-01 14:46:48,322][werkzeug][INFO] - 127.0.0.1 - - [01/Mar/2025 14:46:48] "[35m[1mGET /static/video/3.mov HTTP/1.1[0m" 206 -
+[2025-03-01 14:46:53,708][werkzeug][INFO] - 127.0.0.1 - - [01/Mar/2025 14:46:53] "GET /predict/car-price HTTP/1.1" 200 -
+[2025-03-01 14:46:53,789][werkzeug][INFO] - 127.0.0.1 - - [01/Mar/2025 14:46:53] "[36mGET /static/styles/main.css HTTP/1.1[0m" 304 -
+[2025-03-01 14:46:53,790][werkzeug][INFO] - 127.0.0.1 - - [01/Mar/2025 14:46:53] "[36mGET /static/styles/car.css HTTP/1.1[0m" 304 -
+[2025-03-01 14:46:53,796][werkzeug][INFO] - 127.0.0.1 - - [01/Mar/2025 14:46:53] "[36mGET /static/images/loader.svg HTTP/1.1[0m" 304 -
+[2025-03-01 14:46:53,804][werkzeug][INFO] - 127.0.0.1 - - [01/Mar/2025 14:46:53] "[36mGET /static/scripts/functions.js HTTP/1.1[0m" 304 -
+[2025-03-01 14:46:53,811][werkzeug][INFO] - 127.0.0.1 - - [01/Mar/2025 14:46:53] "[36mGET /static/scripts/car.js HTTP/1.1[0m" 304 -
+[2025-03-01 14:46:53,878][werkzeug][INFO] - 127.0.0.1 - - [01/Mar/2025 14:46:53] "POST /predict/car-price HTTP/1.1" 200 -
+[2025-03-01 14:46:55,177][werkzeug][INFO] - 127.0.0.1 - - [01/Mar/2025 14:46:55] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-03-01 14:46:55,202][werkzeug][INFO] - 127.0.0.1 - - [01/Mar/2025 14:46:55] "[35m[1mGET /static/video/3.mov HTTP/1.1[0m" 206 -
+[2025-03-01 14:47:01,436][werkzeug][INFO] - 127.0.0.1 - - [01/Mar/2025 14:47:01] "GET /predict/house-price HTTP/1.1" 200 -
+[2025-03-01 14:47:01,510][werkzeug][INFO] - 127.0.0.1 - - [01/Mar/2025 14:47:01] "[36mGET /static/styles/main.css HTTP/1.1[0m" 304 -
+[2025-03-01 14:47:01,519][werkzeug][INFO] - 127.0.0.1 - - [01/Mar/2025 14:47:01] "[36mGET /static/styles/car.css HTTP/1.1[0m" 304 -
+[2025-03-01 14:47:01,523][werkzeug][INFO] - 127.0.0.1 - - [01/Mar/2025 14:47:01] "[36mGET /static/images/loader.svg HTTP/1.1[0m" 304 -
+[2025-03-01 14:47:01,527][werkzeug][INFO] - 127.0.0.1 - - [01/Mar/2025 14:47:01] "[36mGET /static/scripts/functions.js HTTP/1.1[0m" 304 -
+[2025-03-01 14:47:01,533][werkzeug][INFO] - 127.0.0.1 - - [01/Mar/2025 14:47:01] "[36mGET /static/scripts/car.js HTTP/1.1[0m" 304 -
+[2025-03-01 14:47:01,601][werkzeug][INFO] - 127.0.0.1 - - [01/Mar/2025 14:47:01] "POST /predict/car-price HTTP/1.1" 200 -
+[2025-03-01 14:48:26,999][werkzeug][INFO] - 127.0.0.1 - - [01/Mar/2025 14:48:26] "GET /predict/house-price HTTP/1.1" 200 -
+[2025-03-01 14:48:27,056][werkzeug][INFO] - 127.0.0.1 - - [01/Mar/2025 14:48:27] "GET /static/styles/main.css HTTP/1.1" 200 -
+[2025-03-01 14:48:27,061][werkzeug][INFO] - 127.0.0.1 - - [01/Mar/2025 14:48:27] "GET /static/styles/car.css HTTP/1.1" 200 -
+[2025-03-01 14:48:27,067][werkzeug][INFO] - 127.0.0.1 - - [01/Mar/2025 14:48:27] "GET /static/images/loader.svg HTTP/1.1" 200 -
+[2025-03-01 14:48:27,073][werkzeug][INFO] - 127.0.0.1 - - [01/Mar/2025 14:48:27] "GET /static/scripts/functions.js HTTP/1.1" 200 -
+[2025-03-01 14:48:27,082][werkzeug][INFO] - 127.0.0.1 - - [01/Mar/2025 14:48:27] "GET /static/scripts/car.js HTTP/1.1" 200 -
+[2025-03-01 14:48:27,111][werkzeug][INFO] - 127.0.0.1 - - [01/Mar/2025 14:48:27] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-03-01 14:48:27,158][werkzeug][INFO] - 127.0.0.1 - - [01/Mar/2025 14:48:27] "POST /predict/car-price HTTP/1.1" 200 -

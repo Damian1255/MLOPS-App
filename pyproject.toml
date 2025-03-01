@@ -6,7 +6,7 @@ authors = ["Damian <damianlau96@gmail.com>", "Natelie <placeholder@gmail.com>", 
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "3.10.16"
+python = "3.10.0"
 pandas = "2.1.4"
 flask = "3.0.3" 
 hydra-core = "^1.3.2"

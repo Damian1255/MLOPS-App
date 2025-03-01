@@ -1,0 +1,11 @@
+[2025-03-01 14:54:01,004][werkzeug][WARNING] -  * Debugger is active!
+[2025-03-01 14:54:01,022][werkzeug][INFO] -  * Debugger PIN: 465-565-298
+[2025-03-01 14:54:02,706][werkzeug][INFO] - 127.0.0.1 - - [01/Mar/2025 14:54:02] "GET /predict/house-price HTTP/1.1" 200 -
+[2025-03-01 14:54:02,781][werkzeug][INFO] - 127.0.0.1 - - [01/Mar/2025 14:54:02] "GET /static/styles/main.css HTTP/1.1" 200 -
+[2025-03-01 14:54:02,782][werkzeug][INFO] - 127.0.0.1 - - [01/Mar/2025 14:54:02] "GET /static/styles/car.css HTTP/1.1" 200 -
+[2025-03-01 14:54:02,790][werkzeug][INFO] - 127.0.0.1 - - [01/Mar/2025 14:54:02] "GET /static/images/loader.svg HTTP/1.1" 200 -
+[2025-03-01 14:54:02,805][werkzeug][INFO] - 127.0.0.1 - - [01/Mar/2025 14:54:02] "GET /static/scripts/functions.js HTTP/1.1" 200 -
+[2025-03-01 14:54:02,813][werkzeug][INFO] - 127.0.0.1 - - [01/Mar/2025 14:54:02] "GET /static/scripts/house.js HTTP/1.1" 200 -
+[2025-03-01 14:54:02,859][werkzeug][INFO] - 127.0.0.1 - - [01/Mar/2025 14:54:02] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-03-01 14:54:02,868][werkzeug][INFO] - 127.0.0.1 - - [01/Mar/2025 14:54:02] "POST /predict/house-price HTTP/1.1" 200 -
+[2025-03-01 14:54:40,110][werkzeug][INFO] -  * Detected change in 'C:\\Users\\Damian Lau\\Desktop\\MLOPS-App\\app.py', reloading

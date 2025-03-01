@@ -1,0 +1,11 @@
+[2025-03-01 15:54:11,818][werkzeug][WARNING] -  * Debugger is active!
+[2025-03-01 15:54:11,824][werkzeug][INFO] -  * Debugger PIN: 465-565-298
+[2025-03-01 15:55:01,100][werkzeug][INFO] - 127.0.0.1 - - [01/Mar/2025 15:55:01] "GET /predict/house-price HTTP/1.1" 200 -
+[2025-03-01 15:55:01,166][werkzeug][INFO] - 127.0.0.1 - - [01/Mar/2025 15:55:01] "[36mGET /static/styles/main.css HTTP/1.1[0m" 304 -
+[2025-03-01 15:55:01,171][werkzeug][INFO] - 127.0.0.1 - - [01/Mar/2025 15:55:01] "[36mGET /static/styles/car.css HTTP/1.1[0m" 304 -
+[2025-03-01 15:55:01,183][werkzeug][INFO] - 127.0.0.1 - - [01/Mar/2025 15:55:01] "[36mGET /static/images/loader.svg HTTP/1.1[0m" 304 -
+[2025-03-01 15:55:01,191][werkzeug][INFO] - 127.0.0.1 - - [01/Mar/2025 15:55:01] "[36mGET /static/scripts/functions.js HTTP/1.1[0m" 304 -
+[2025-03-01 15:55:01,195][werkzeug][INFO] - 127.0.0.1 - - [01/Mar/2025 15:55:01] "[36mGET /static/scripts/house.js HTTP/1.1[0m" 304 -
+[2025-03-01 15:55:01,258][werkzeug][INFO] - 127.0.0.1 - - [01/Mar/2025 15:55:01] "POST /predict/house-price HTTP/1.1" 200 -
+[2025-03-01 15:55:43,751][werkzeug][INFO] - 127.0.0.1 - - [01/Mar/2025 15:55:43] "[35m[1mPOST /api/predict/house-price HTTP/1.1[0m" 500 -
+[2025-03-01 15:56:52,775][werkzeug][INFO] -  * Detected change in 'C:\\Users\\Damian Lau\\Desktop\\MLOPS-App\\src\\preprocess.py', reloading

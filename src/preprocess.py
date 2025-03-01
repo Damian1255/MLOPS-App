@@ -1,3 +1,6 @@
+import numpy as np
+import pandas as pd
+
 class Preprocessors:
     def __init__(self):
         pass
@@ -31,4 +34,23 @@ class Preprocessors:
         data["Power"] = data["Power"].astype(float)
         data["Luxury_Flag"] = data["Luxury_Flag"].astype(int)
         
+        return data
+    
+    def preprocess_house_data(self, data):
+        data['Log_Price'] = 0
+        data['Date'] = pd.to_datetime(data['Date'], format='%d/%m/%Y')
+        data['Rooms'] = data['Rooms'].astype(int)
+        data['Distance'] = data['Distance'].astype(float)
+        data['Bathroom'] = data['Bathroom'].astype(int)
+        data['Car'] = data['Car'].astype(int)
+        data['Landsize'] = data['Landsize'].astype(float)
+        data['BuildingArea'] = data['BuildingArea'].astype(float)
+        data['YearBuilt'] = data['YearBuilt'].astype(int)
+        data['Postcode'] = data['Postcode'].astype(int)
+        data['Propertycount'] = data['Propertycount'].astype(int)
+        data['Bedroom2'] = data['Bedroom2'].astype(int)
+        data['Longtitude'] = data['Longtitude'].astype(float)
+        data['Lattitude'] = data['Lattitude'].astype(float)
+        
+
         return data

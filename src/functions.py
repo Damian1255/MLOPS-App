@@ -4,6 +4,7 @@ class Functions:
 
     def get_column_attributes(self, data, convert_to_object=[], convert_to_int=[], custom_order=[]):
         column_attributes = {}
+        data = data.dropna()
 
         for column in convert_to_object:
             # drop missing values

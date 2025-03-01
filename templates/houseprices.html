@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="../static/styles/main.css" />
+        <link rel="stylesheet" href="../static/styles/car.css" />
+        <title>Document</title>
+    </head>
+    <body>
+        <div class="result-container">
+            <div class="header">
+                <h1>Melbourne House Price Prediction</h1>
+                <p>Enter the details of the house to get the estimated price</p>
+            </div>
+            <div class="back">
+                <button onclick="window.location.href = '/'">Return to Home</button>
+            </div>
+            <div class="result">
+                <h2 id="result">$ ------------------</h2>
+            </div>
+        </div>
+        <div class="form-container">
+            <form id="form">
+                <p id="fields-load">Fetching fields from the server...</p>
+            </form>
+        </div>
+        <div class="loader" id="loader" style="display: none">
+            <img src="../static/images/loader.svg" alt="" />
+        </div>
+    </body>
+    <script src="../static/scripts/functions.js"></script>
+    <script src="../static/scripts/house.js"></script>
+</html>

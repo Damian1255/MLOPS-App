@@ -1,0 +1,13 @@
+[2025-03-01 15:31:32,457][werkzeug][WARNING] -  * Debugger is active!
+[2025-03-01 15:31:32,463][werkzeug][INFO] -  * Debugger PIN: 465-565-298
+[2025-03-01 15:34:05,508][werkzeug][INFO] - 127.0.0.1 - - [01/Mar/2025 15:34:05] "GET /predict/house-price HTTP/1.1" 200 -
+[2025-03-01 15:34:05,572][werkzeug][INFO] - 127.0.0.1 - - [01/Mar/2025 15:34:05] "GET /static/styles/main.css HTTP/1.1" 200 -
+[2025-03-01 15:34:05,579][werkzeug][INFO] - 127.0.0.1 - - [01/Mar/2025 15:34:05] "GET /static/styles/car.css HTTP/1.1" 200 -
+[2025-03-01 15:34:05,586][werkzeug][INFO] - 127.0.0.1 - - [01/Mar/2025 15:34:05] "GET /static/images/loader.svg HTTP/1.1" 200 -
+[2025-03-01 15:34:05,588][werkzeug][INFO] - 127.0.0.1 - - [01/Mar/2025 15:34:05] "GET /static/scripts/functions.js HTTP/1.1" 200 -
+[2025-03-01 15:34:05,594][werkzeug][INFO] - 127.0.0.1 - - [01/Mar/2025 15:34:05] "GET /static/scripts/house.js HTTP/1.1" 200 -
+[2025-03-01 15:34:05,629][werkzeug][INFO] - 127.0.0.1 - - [01/Mar/2025 15:34:05] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-03-01 15:34:05,664][werkzeug][INFO] - 127.0.0.1 - - [01/Mar/2025 15:34:05] "POST /predict/house-price HTTP/1.1" 200 -
+[2025-03-01 15:34:18,462][werkzeug][INFO] - 127.0.0.1 - - [01/Mar/2025 15:34:18] "GET /predict/house-price HTTP/1.1" 200 -
+[2025-03-01 15:34:52,527][werkzeug][INFO] - 127.0.0.1 - - [01/Mar/2025 15:34:52] "[35m[1mPOST /api/predict/house-price HTTP/1.1[0m" 500 -
+[2025-03-01 15:35:59,993][werkzeug][INFO] -  * Detected change in 'C:\\Users\\Damian Lau\\Desktop\\MLOPS-App\\app.py', reloading

@@ -1,0 +1,4 @@
+[2025-03-01 16:01:56,053][werkzeug][WARNING] -  * Debugger is active!
+[2025-03-01 16:01:56,060][werkzeug][INFO] -  * Debugger PIN: 465-565-298
+[2025-03-01 16:02:10,632][werkzeug][INFO] - 127.0.0.1 - - [01/Mar/2025 16:02:10] "[35m[1mPOST /api/predict/house-price HTTP/1.1[0m" 500 -
+[2025-03-01 16:02:28,401][werkzeug][INFO] -  * Detected change in 'C:\\Users\\Damian Lau\\Desktop\\MLOPS-App\\src\\preprocess.py', reloading

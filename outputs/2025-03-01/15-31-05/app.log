@@ -1,0 +1,17 @@
+[2025-03-01 15:31:11,743][werkzeug][INFO] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.112:8080
+[2025-03-01 15:31:11,744][werkzeug][INFO] - [33mPress CTRL+C to quit[0m
+[2025-03-01 15:31:11,749][werkzeug][INFO] -  * Restarting with stat
+[2025-03-01 15:36:01,251][werkzeug][INFO] -  * Restarting with stat
+[2025-03-01 15:39:14,280][werkzeug][INFO] -  * Restarting with stat
+[2025-03-01 15:40:13,870][werkzeug][INFO] -  * Restarting with stat
+[2025-03-01 15:53:50,346][werkzeug][INFO] -  * Restarting with stat
+[2025-03-01 15:56:54,036][werkzeug][INFO] -  * Restarting with stat
+[2025-03-01 15:58:23,731][werkzeug][INFO] -  * Restarting with stat
+[2025-03-01 15:59:44,573][werkzeug][INFO] -  * Restarting with stat
+[2025-03-01 16:01:37,350][werkzeug][INFO] -  * Restarting with stat
+[2025-03-01 16:02:29,602][werkzeug][INFO] -  * Restarting with stat
+[2025-03-01 16:04:05,043][werkzeug][INFO] -  * Restarting with stat
+[2025-03-01 16:23:57,644][werkzeug][INFO] -  * Restarting with stat
