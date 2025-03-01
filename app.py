@@ -25,6 +25,8 @@ car_prices_model = pr.load_model(variables.model.car_prices.path)
 car_prices_data = pd.read_excel(variables.data.car_prices.processed.path)
 house_prices_model = pc.load_model(variables.model.house_prices.path)
 house_prices_data = pd.read_csv(variables.data.house_prices.raw.path)
+wheat_prices_data = pd.read_csv(variables.data.wheat_prices.raw.path)
+wheat_prices_model = pc.load_model(variables.model.wheat_prices.path)
 
 
 @app.route("/")
@@ -75,16 +77,40 @@ def predict_car_prices():
 def predict_house_prices():
     # convert request data to dataframe
     data = request.json
-    print(data)
     data_df = pd.DataFrame(data, index=[0])
     data_df = pp.preprocess_house_data(data_df)
-    print(data_df)
     # predict
     prediction = pr.predict_model(house_prices_model, data=data_df)
     prediction = prediction["prediction_label"].values[0]
 
     # return prediction
     return jsonify({"prediction": prediction})
+
+
+@app.route("/predict/wheat-type", methods=["GET", "POST"])
+def wheat_prices_page(): 
+    if request.method == "POST":
+        convert_to_object = []
+        convert_to_int = ["Area", "Groove",
+                          "Length", "Perimeter", "Width"]
+
+        attributes = fn.get_column_attributes(wheat_prices_data, convert_to_object, convert_to_int)
+        return jsonify({"attributes": attributes})
+    else:
+        return render_template("wheatprices.html")
+
+
+@app.route("/api/predict/wheat-type", methods=["POST"])
+def predict_wheat_prices():
+    # convert request data to dataframe
+    data = request.json
+    data_df = pd.DataFrame(data, index=[0])
+    data_df = pp.preprocess_wheat_data(data_df)
+    # predict
+    prediction = pr.predict_model(wheat_prices_model, data=data_df)
+    prediction = prediction["prediction_label"].values[0]
+    # return prediction
+    return jsonify({"prediction": str(prediction)})
 
 
 if __name__ == "__main__":

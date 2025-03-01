@@ -1,5 +1,6 @@
 import numpy as np
 import pandas as pd
+from sklearn.preprocessing import StandardScaler
 
 class Preprocessors:
     def __init__(self):
@@ -52,5 +53,9 @@ class Preprocessors:
         data['Longtitude'] = data['Longtitude'].astype(float)
         data['Lattitude'] = data['Lattitude'].astype(float)
         
+        return data
+    
+    def preprocess_wheat_data(self, data):
+
 
         return data

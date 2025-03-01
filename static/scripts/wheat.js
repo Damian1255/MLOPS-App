@@ -4,10 +4,10 @@ let loader = document.getElementById("loader");
 let fields_load = document.getElementById("fields-load");
 
 // ignore the target attribute
-ignore_list = ["Price"];
+ignore_list = ["Type"];
 custom_label = {};
 
-fetch("/predict/house-price", {
+fetch("/predict/wheat-type", {
     method: "POST",
     headers: {
         "Content-Type": "application/json",
@@ -44,7 +44,7 @@ form.addEventListener("submit", (event) => {
             data[element.name] = element.value;
         }
     }
-    fetch("/api/predict/house-price", {
+    fetch("/api/predict/wheat-type", {
         method: "POST",
         headers: {
             "Content-Type": "application/json",
@@ -54,7 +54,7 @@ form.addEventListener("submit", (event) => {
         .then((response) => response.json())
         .then((data) => {
             console.log("Prediction successful", data);
-            result.innerHTML = "$" + data.prediction.toFixed(2);
+            result.innerHTML = "Wheat Type: " + data.prediction;
             form.querySelector("input[type=submit]").disabled = false;
             loader.style.display = "none";
         })

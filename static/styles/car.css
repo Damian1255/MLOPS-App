@@ -22,7 +22,7 @@ body {
 
 .result-container {
     align-items: center;
-    justify-content: flex-start;
+    justify-content: center;
 }
 
 .header {
@@ -41,7 +41,7 @@ body {
 }
 
 .result {
-    height: 300px;
+    height: 200px;
     color: white;
     display: flex;
     justify-content: center;

@@ -9,9 +9,16 @@ data:
             path: "data/raw/01_Melbourne_Residential.csv"
         processed:
             path: "data/processed/01_Melbourne_Residential.csv"
+    wheat_prices:
+        raw:
+            path: "data/raw/03_Wheat_Seeds.csv"
+        processed:
+            path: "data/processed/03_Wheat_Seeds.csv"
 
 model:
     car_prices:
         path: "models/final_model"
     house_prices:
         path: "models/best_housing_model"
+    wheat_prices:
+        path: "models/wheat-pipeline"
