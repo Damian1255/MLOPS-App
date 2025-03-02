@@ -10085,3 +10085,205 @@ current: {'deps_info': {'pip': '25.0.1', 'setuptools': '75.8.2', 'pycaret': '3.3
 pickle: {'deps_info': {'pip': '25.0.1', 'setuptools': '65.5.0', 'pycaret': '3.3.2', 'IPython': '8.33.0', 'ipywidgets': '8.1.5', 'tqdm': '4.67.1', 'numpy': '1.26.4', 'pandas': '2.1.4', 'jinja2': '3.1.5', 'scipy': '1.11.4', 'joblib': '1.3.2', 'sklearn': '1.4.2', 'pyod': '2.0.3', 'imblearn': '0.13.0', 'category_encoders': '2.7.0', 'lightgbm': '4.6.0', 'numba': '0.61.0', 'requests': '2.32.3', 'matplotlib': '3.7.5', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '5.24.1', 'plotly-resampler': 'Not installed', 'kaleido': '0.2.1', 'schemdraw': '0.15', 'statsmodels': '0.14.4', 'sktime': '0.26.0', 'tbats': '1.1.3', 'pmdarima': '2.0.4', 'psutil': '7.0.0', 'markupsafe': '2.1.5', 'pickle5': 'Not installed', 'cloudpickle': '3.1.1', 'deprecation': '2.1.0', 'xxhash': '3.5.0', 'wurlitzer': 'Not installed'}, 'python': {'version': '3.10.11', 'machine': 'AMD64'}}
   warnings.warn(
 
+2025-03-02 22:19:51,006:INFO:Initializing predict_model()
+2025-03-02 22:19:51,007:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x00000186673B6050>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('iterative_imputer',
+                 TransformerWrapper(transformer=IterativeImputer(cat_estimator=ExtraTreesClassifier(n_jobs=-1,
+                                                                                                    random_state=123),
+                                                                 cat_estimator_prepare_for_categoricals_type='ordinal',
+                                                                 categorical_indices=[0,
+                                                                                      3,
+                                                                                      4,
+                                                                                      10,
+                                                                                      11],
+                                                                 num_estimator=ExtraTreesRegressor(n_jobs=-1,
+                                                                                                   random_state=123),
+                                                                 num_estimator_prepare_f...
+                                    transformer=KBinsDiscretizer(encode='ordinal',
+                                                                 strategy='kmeans'))),
+                ('remove_outliers',
+                 TransformerWrapper(transformer=RemoveOutliers(random_state=123))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator',
+                 <catboost.core.CatBoostRegressor object at 0x00000186704EC6A0>)]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000018672097370>)
+2025-03-02 22:19:51,007:INFO:Checking exceptions
+2025-03-02 22:19:51,007:INFO:Preloading libraries
+2025-03-02 22:19:51,008:INFO:Set up data.
+2025-03-02 22:19:51,040:INFO:Set up index.
+2025-03-02 22:19:51,241:WARNING:C:\Users\Damian Lau\AppData\Local\pypoetry\Cache\virtualenvs\mlops-app-x87fym7--py3.10\lib\site-packages\pycaret\internal\preprocess\transformers.py:396: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  X[name] = column.replace(self.to_other_[name], self.value)
+
+2025-03-02 22:19:51,245:WARNING:C:\Users\Damian Lau\AppData\Local\pypoetry\Cache\virtualenvs\mlops-app-x87fym7--py3.10\lib\site-packages\pycaret\internal\preprocess\transformers.py:396: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  X[name] = column.replace(self.to_other_[name], self.value)
+
+2025-03-02 22:19:51,250:WARNING:C:\Users\Damian Lau\AppData\Local\pypoetry\Cache\virtualenvs\mlops-app-x87fym7--py3.10\lib\site-packages\pycaret\internal\preprocess\transformers.py:396: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  X[name] = column.replace(self.to_other_[name], self.value)
+
+2025-03-02 22:21:52,917:INFO:Initializing predict_model()
+2025-03-02 22:21:52,918:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x0000018667391690>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('date_feature_extractor',
+                 TransformerWrapper(include=['Date'],
+                                    transformer=ExtractDateTimeFeatures())),
+                ('iterative_imputer',
+                 TransformerWrapper(transformer=IterativeImputer(cat_estimator=LGBMClassifier(n_jobs=-1,
+                                                                                              random_state=123),
+                                                                 cat_estimator_prepare_for_categoricals_type='fit_params_categorical_feature',...
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('remove_multicollinearity',
+                 TransformerWrapper(exclude=[],
+                                    transformer=RemoveMulticollinearity(threshold=0.9))),
+                ('remove_outliers',
+                 TransformerWrapper(transformer=RemoveOutliers(random_state=123))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('actual_estimator',
+                 GradientBoostingRegressor(random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000018672096680>)
+2025-03-02 22:21:52,918:INFO:Checking exceptions
+2025-03-02 22:21:52,918:INFO:Preloading libraries
+2025-03-02 22:21:52,919:INFO:Set up data.
+2025-03-02 22:21:52,950:INFO:Set up index.
+2025-03-02 22:23:02,150:INFO:Initializing predict_model()
+2025-03-02 22:23:02,150:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x00000186673236A0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['Area', 'Perimeter', 'Compactness',
+                                             'Length', 'Width',
+                                             'AsymmetryCoeff', 'Groove'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('balance',
+                 TransformerWrapper(transformer=FixImbalancer(estimator=SMOTE(random_state=123)))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('actual_estimator', RidgeClassifier(random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000018672097490>)
+2025-03-02 22:23:02,150:INFO:Checking exceptions
+2025-03-02 22:23:02,150:INFO:Preloading libraries
+2025-03-02 22:23:02,152:INFO:Set up data.
+2025-03-02 22:23:02,160:INFO:Set up index.
+2025-03-02 22:23:10,302:INFO:Initializing predict_model()
+2025-03-02 22:23:10,302:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x00000186673C4400>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['Area', 'Perimeter', 'Compactness',
+                                             'Length', 'Width',
+                                             'AsymmetryCoeff', 'Groove'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('balance',
+                 TransformerWrapper(transformer=FixImbalancer(estimator=SMOTE(random_state=123)))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('actual_estimator', RidgeClassifier(random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000018672096A70>)
+2025-03-02 22:23:10,304:INFO:Checking exceptions
+2025-03-02 22:23:10,304:INFO:Preloading libraries
+2025-03-02 22:23:10,304:INFO:Set up data.
+2025-03-02 22:23:10,322:INFO:Set up index.
+2025-03-02 22:34:04,982:INFO:Initializing predict_model()
+2025-03-02 22:34:04,982:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x0000018667321600>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('iterative_imputer',
+                 TransformerWrapper(transformer=IterativeImputer(cat_estimator=ExtraTreesClassifier(n_jobs=-1,
+                                                                                                    random_state=123),
+                                                                 cat_estimator_prepare_for_categoricals_type='ordinal',
+                                                                 categorical_indices=[0,
+                                                                                      3,
+                                                                                      4,
+                                                                                      10,
+                                                                                      11],
+                                                                 num_estimator=ExtraTreesRegressor(n_jobs=-1,
+                                                                                                   random_state=123),
+                                                                 num_estimator_prepare_f...
+                                    transformer=KBinsDiscretizer(encode='ordinal',
+                                                                 strategy='kmeans'))),
+                ('remove_outliers',
+                 TransformerWrapper(transformer=RemoveOutliers(random_state=123))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator',
+                 <catboost.core.CatBoostRegressor object at 0x00000186704EC6A0>)]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000018672097B50>)
+2025-03-02 22:34:04,982:INFO:Checking exceptions
+2025-03-02 22:34:04,984:INFO:Preloading libraries
+2025-03-02 22:34:04,984:INFO:Set up data.
+2025-03-02 22:34:05,009:INFO:Set up index.
+2025-03-02 22:34:05,074:WARNING:C:\Users\Damian Lau\AppData\Local\pypoetry\Cache\virtualenvs\mlops-app-x87fym7--py3.10\lib\site-packages\pycaret\internal\preprocess\transformers.py:396: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  X[name] = column.replace(self.to_other_[name], self.value)
+
+2025-03-02 22:34:05,078:WARNING:C:\Users\Damian Lau\AppData\Local\pypoetry\Cache\virtualenvs\mlops-app-x87fym7--py3.10\lib\site-packages\pycaret\internal\preprocess\transformers.py:396: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  X[name] = column.replace(self.to_other_[name], self.value)
+
+2025-03-02 22:34:05,086:WARNING:C:\Users\Damian Lau\AppData\Local\pypoetry\Cache\virtualenvs\mlops-app-x87fym7--py3.10\lib\site-packages\pycaret\internal\preprocess\transformers.py:396: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  X[name] = column.replace(self.to_other_[name], self.value)
+
+2025-03-02 22:36:17,949:INFO:Initializing predict_model()
+2025-03-02 22:36:17,950:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x0000018671B57220>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('date_feature_extractor',
+                 TransformerWrapper(include=['Date'],
+                                    transformer=ExtractDateTimeFeatures())),
+                ('iterative_imputer',
+                 TransformerWrapper(transformer=IterativeImputer(cat_estimator=LGBMClassifier(n_jobs=-1,
+                                                                                              random_state=123),
+                                                                 cat_estimator_prepare_for_categoricals_type='fit_params_categorical_feature',...
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('remove_multicollinearity',
+                 TransformerWrapper(exclude=[],
+                                    transformer=RemoveMulticollinearity(threshold=0.9))),
+                ('remove_outliers',
+                 TransformerWrapper(transformer=RemoveOutliers(random_state=123))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('actual_estimator',
+                 GradientBoostingRegressor(random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000018672097C70>)
+2025-03-02 22:36:17,950:INFO:Checking exceptions
+2025-03-02 22:36:17,950:INFO:Preloading libraries
+2025-03-02 22:36:17,951:INFO:Set up data.
+2025-03-02 22:36:17,981:INFO:Set up index.
+2025-03-02 22:37:27,655:INFO:Initializing predict_model()
+2025-03-02 22:37:27,656:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x0000018667322C50>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['Area', 'Perimeter', 'Compactness',
+                                             'Length', 'Width',
+                                             'AsymmetryCoeff', 'Groove'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('balance',
+                 TransformerWrapper(transformer=FixImbalancer(estimator=SMOTE(random_state=123)))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('actual_estimator', RidgeClassifier(random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x00000186720956C0>)
+2025-03-02 22:37:27,656:INFO:Checking exceptions
+2025-03-02 22:37:27,656:INFO:Preloading libraries
+2025-03-02 22:37:27,657:INFO:Set up data.
+2025-03-02 22:37:27,675:INFO:Set up index.
