@@ -1,7 +1,5 @@
 # Machine Learning Operations Module
 
-https://github.com/user-attachments/assets/177ca3f5-2159-40c7-9a9b-e643bf2cce5c
-
 ### Tasks
 
 -   **Damian** - Develop model to predict use car prices in india.
@@ -19,26 +17,35 @@ https://github.com/user-attachments/assets/177ca3f5-2159-40c7-9a9b-e643bf2cce5c
 
 -   Poetry, Hydra, and DVC
 
-### Things to Install
+### Instructions to Run the Project
 
--   Cookiecutter, Poetry
+-   1. Clone the repository.
+-   2. Ensure `poetry` is install in Python 3.10.16.
+-   3. Run `poetry install` to install the dependencies.
+-   4. Run `poetry python run app.py` to start the web application.
+-   5. Navigate to `http://127.0.0.1:8080/` to view the web application.
 
 ### Folder Structure
 
 ```
 C:.
 ├───.dvc
+│   ├───cache
+│   └───tmp
 ├───config
 ├───data
-│   └───housing
+│   ├───processed
+│   └───raw
 ├───models
 ├───notebooks
-│   ├───.ipynb_checkpoints
-│   └───catboost_info
-│       └───learn
+├───outputs
 ├───src
+│   └───__pycache__
 ├───static
-│   └───images
+│   ├───images
+│   ├───scripts
+│   ├───styles
+│   └───video
 └───templates
     └───includes
 ```
