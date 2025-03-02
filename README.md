@@ -25,6 +25,10 @@
 -   4. Run `poetry python run app.py` to start the web application.
 -   5. Navigate to `http://127.0.0.1:8080/` to view the web application.
 
+### Deployment
+
+https://mlops-app-v09r.onrender.com
+
 ### Folder Structure
 
 ```
