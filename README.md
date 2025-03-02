@@ -6,7 +6,7 @@ https://github.com/user-attachments/assets/177ca3f5-2159-40c7-9a9b-e643bf2cce5c
 
 -   **Damian** - Develop model to predict use car prices in india.
 -   **Jade** - Develop model to predict house prices.
--   **Natelie** - Develop model to predict wheat prices.
+-   **Natelie** - Develop model to predict wheat type.
 
 ### Project Overview:
 
